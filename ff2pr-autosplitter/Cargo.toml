@@ -1,0 +1,25 @@
+[package]
+name = "ff2pr_autosplitter"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+asr = { git = "https://github.com/LiveSplit/asr", features = [
+    "derive",
+    "unity",
+] }
+bytemuck = { version = "1", features = ["derive", "min_const_generics"] }
+num_enum = { version = "0.7.3", default-features = false }
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+lto = true
+panic = "abort"
+codegen-units = 1
+strip = true
+
+[profile.release.build-override]
+opt-level = 0

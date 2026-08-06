@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Run version="1.7.0">
+  <GameIcon />
+  <GameName>Golden Axe</GameName>
+  <CategoryName>Arcade</CategoryName>
+  <LayoutPath>
+  </LayoutPath>
+  <Metadata>
+    <Run id="" />
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables />
+    <CustomVariables />
+  </Metadata>
+  <Offset>-00:00:06.2680000</Offset>
+  <AttemptCount>26</AttemptCount>
+  <AttemptHistory>
+    <Attempt id="1" started="03/29/2025 15:13:12" isStartedSynced="True" ended="03/29/2025 15:13:34" isEndedSynced="True" />
+    <Attempt id="2" started="03/29/2025 15:14:44" isStartedSynced="True" ended="03/29/2025 15:17:30" isEndedSynced="True" />
+    <Attempt id="3" started="03/29/2025 15:17:30" isStartedSynced="True" ended="03/29/2025 15:17:38" isEndedSynced="True" />
+    <Attempt id="4" started="03/29/2025 15:17:59" isStartedSynced="True" ended="03/29/2025 15:23:08" isEndedSynced="True" />
+    <Attempt id="5" started="03/29/2025 15:23:18" isStartedSynced="True" ended="03/29/2025 15:35:14" isEndedSynced="True">
+      <RealTime>00:11:55.8358965</RealTime>
+    </Attempt>
+    <Attempt id="6" started="03/29/2025 16:00:14" isStartedSynced="True" ended="03/29/2025 16:01:45" isEndedSynced="True" />
+    <Attempt id="7" started="03/29/2025 16:01:57" isStartedSynced="True" ended="03/29/2025 16:14:19" isEndedSynced="True">
+      <RealTime>00:12:14.9308437</RealTime>
+    </Attempt>
+    <Attempt id="8" started="02/19/2026 15:04:38" isStartedSynced="True" ended="02/19/2026 15:04:46" isEndedSynced="True" />
+    <Attempt id="9" started="02/19/2026 15:10:40" isStartedSynced="True" ended="02/19/2026 15:14:18" isEndedSynced="True" />
+    <Attempt id="10" started="02/19/2026 15:14:18" isStartedSynced="True" ended="02/19/2026 15:16:21" isEndedSynced="True" />
+    <Attempt id="11" started="02/19/2026 15:18:34" isStartedSynced="True" ended="02/19/2026 15:20:17" isEndedSynced="True" />
+    <Attempt id="12" started="02/19/2026 15:20:18" isStartedSynced="True" ended="02/19/2026 15:20:27" isEndedSynced="True" />
+    <Attempt id="13" started="02/19/2026 15:20:33" isStartedSynced="True" ended="02/19/2026 15:21:21" isEndedSynced="True" />
+    <Attempt id="14" started="02/19/2026 15:21:21" isStartedSynced="True" ended="02/19/2026 15:22:46" isEndedSynced="True" />
+    <Attempt id="15" started="02/19/2026 15:22:46" isStartedSynced="True" ended="02/19/2026 15:31:59" isEndedSynced="True" />
+    <Attempt id="16" started="02/19/2026 20:41:19" isStartedSynced="True" ended="02/19/2026 20:44:15" isEndedSynced="True" />
+    <Attempt id="17" started="02/19/2026 20:44:45" isStartedSynced="True" ended="02/19/2026 20:46:55" isEndedSynced="True" />
+    <Attempt id="18" started="02/19/2026 20:47:24" isStartedSynced="True" ended="02/19/2026 20:51:57" isEndedSynced="True" />
+    <Attempt id="19" started="02/19/2026 20:52:42" isStartedSynced="True" ended="02/19/2026 21:04:23" isEndedSynced="True">
+      <RealTime>00:11:34.5128161</RealTime>
+    </Attempt>
+    <Attempt id="20" started="02/19/2026 21:08:31" isStartedSynced="True" ended="02/19/2026 21:08:42" isEndedSynced="True" />
+    <Attempt id="21" started="02/19/2026 21:09:06" isStartedSynced="True" ended="02/19/2026 21:09:09" isEndedSynced="True" />
+    <Attempt id="22" started="02/19/2026 21:09:27" isStartedSynced="True" ended="02/19/2026 21:10:20" isEndedSynced="True" />
+    <Attempt id="23" started="02/19/2026 21:11:04" isStartedSynced="True" ended="02/19/2026 21:11:58" isEndedSynced="True" />
+    <Attempt id="24" started="02/19/2026 21:15:34" isStartedSynced="True" ended="02/19/2026 21:15:37" isEndedSynced="True" />
+    <Attempt id="25" started="02/19/2026 21:16:19" isStartedSynced="True" ended="02/19/2026 21:16:38" isEndedSynced="True" />
+    <Attempt id="26" started="02/19/2026 21:17:13" isStartedSynced="True" ended="02/19/2026 21:28:32" isEndedSynced="True">
+      <RealTime>00:11:12.6188837</RealTime>
+    </Attempt>
+  </AttemptHistory>
+  <Segments>
+    <Segment>
+      <Name>Stage 1</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:00:58.7757526</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:58.7757526</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="5">
+          <RealTime>00:01:20.9386793</RealTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:01:07.9421759</RealTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:01:06.2800767</RealTime>
+        </Time>
+        <Time id="18">
+          <RealTime>00:01:06.9760514</RealTime>
+        </Time>
+        <Time id="19">
+          <RealTime>00:01:11.9111849</RealTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:58.7757526</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Stage 1 Thieves</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:01:15.8648182</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:16.1257641</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="5">
+          <RealTime>00:00:18.7701275</RealTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:16.2402400</RealTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:17.4060222</RealTime>
+        </Time>
+        <Time id="18">
+          <RealTime>00:00:16.1257641</RealTime>
+        </Time>
+        <Time id="19">
+          <RealTime>00:00:16.8028848</RealTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:17.0890656</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Stage 2</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:02:20.0408477</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:56.6391920</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="5">
+          <RealTime>00:00:56.6391920</RealTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:01:10.4354695</RealTime>
+        </Time>
+        <Time id="18">
+          <RealTime>00:01:16.8889064</RealTime>
+        </Time>
+        <Time id="19">
+          <RealTime>00:01:10.8829985</RealTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:01:04.1760295</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Stage 2 Thieves</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:02:35.3658579</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:15.3250102</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="5">
+          <RealTime>00:00:16.9535639</RealTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:17.0223442</RealTime>
+        </Time>
+        <Time id="18">
+          <RealTime>00:00:23.7694865</RealTime>
+        </Time>
+        <Time id="19">
+          <RealTime>00:00:17.1649220</RealTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:15.3250102</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Stage 3</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:03:52.1764743</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:14.0361059</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="5">
+          <RealTime>00:01:39.6392635</RealTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:01:36.0645128</RealTime>
+        </Time>
+        <Time id="19">
+          <RealTime>00:01:14.0361059</RealTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:01:16.8106164</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Stage 3 Thieves</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:04:11.7644515</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:17.3341391</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="5">
+          <RealTime>00:00:17.3341391</RealTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:22.0964029</RealTime>
+        </Time>
+        <Time id="19">
+          <RealTime>00:00:22.1140012</RealTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:19.5879772</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Stage 4</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:05:49.1562048</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:27.2975656</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="5">
+          <RealTime>00:01:27.2975656</RealTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:01:37.5039239</RealTime>
+        </Time>
+        <Time id="19">
+          <RealTime>00:01:32.0807830</RealTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:01:37.3917533</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Stage 4 Thieves</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:06:06.3482040</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:12.9759114</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="5">
+          <RealTime>00:00:12.9759114</RealTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:16.3433383</RealTime>
+        </Time>
+        <Time id="19">
+          <RealTime>00:00:16.9276938</RealTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:17.1919992</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Stage 5</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:07:19.2724310</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:00.8942204</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="5">
+          <RealTime>00:00:00.8942204</RealTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:48.5318577</RealTime>
+        </Time>
+        <Time id="19">
+          <RealTime>00:00:50.3402558</RealTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:01:12.9242270</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Stage 6</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:08:14.5402175</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:02.9238452</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="5">
+          <RealTime>00:00:02.9238452</RealTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:01:17.6184288</RealTime>
+        </Time>
+        <Time id="19">
+          <RealTime>00:01:05.5400685</RealTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:55.2677865</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Stage 7</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:10:09.3617358</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:54.8215183</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="5">
+          <RealTime>00:03:58.2283861</RealTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:02:12.8609175</RealTime>
+        </Time>
+        <Time id="19">
+          <RealTime>00:02:08.8345781</RealTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:01:54.8215183</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Stage 8</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:11:12.6188837</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:03.2571479</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="5">
+          <RealTime>00:01:23.2410025</RealTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:01:12.2712322</RealTime>
+        </Time>
+        <Time id="19">
+          <RealTime>00:01:07.8773396</RealTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:01:03.2571479</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+  </Segments>
+  <AutoSplitterSettings>
+    <Version>1.5</Version>
+    <ScriptPath>C:\LiveSplit_1.8.21\Components\GA-ASL.asl</ScriptPath>
+    <Start>True</Start>
+    <Reset>True</Reset>
+    <Split>True</Split>
+    <CustomSettings>
+      <Setting id="ModeSelection." type="bool">False</Setting>
+      <Setting id="arcadeMode" type="bool">True</Setting>
+      <Setting id="duelMode" type="bool">False</Setting>
+      <Setting id="beginnerMode" type="bool">False</Setting>
+    </CustomSettings>
+  </AutoSplitterSettings>
+</Run>

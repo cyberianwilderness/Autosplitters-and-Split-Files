@@ -1,0 +1,1892 @@
+Grandia II any% Speedrun (v1.0)
+twitch.tv/ahramanyu
+
+	[Intro]
+
+	Skip Intro
+
+
+	[Witt Forest] Encounters: 0 | Bosses: 0
+	
+	(1) Blizzard Charm (chest) | Hand Grenade, Wound Salve, Yomi's Elixir (chest)
+
+
+	[Carbo Village #1] Encounters: 0 | Bosses: 0
+
+Path	Carbo Entrance -> Church (Elena/Carius) -> Leave Church -> Carbo Inn ->
+	Innkeeper, option #1 -> Carius Chat -> Leave Inn -> Church (Elena) -> Leave Carbo
+
+Items	200g (Carius)
+
+
+	[Black Forest] Encounters: 2 | Bosses: 0
+
+	(1) --
+
+
+Enc #1	< 2x Dodo (230 HP) > | 12 EXP | 20 SC | 16 MC | 14 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Ryudo: Tenseiken Slash each Dodo once.
+
+
+	(2) 50g
+
+
+Enc #2	< 2x Dodo (230 HP) > | 12 EXP | 20 SC | 16 MC | 14 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Ryudo: Tenseiken Slash one Dodo, Combo the second one.
+
+
+	(3) --
+
+Path	Ismene Chat -> Skye Chat -> Enter Garmia Tower
+
+
+	[Garmia Tower] Encounters: 3 | Bosses: 1
+
+	(1) --
+
+Path	Tower Entrance -> Recover -> Head up to part 2
+
+	(2) 50g
+
+	(3) 150g
+
+
+Enc #1	< 1x Gargoyle (380 HP) > | 18 EXP | 54 SC | 21 MC | 12 G
+
+	Relevant Drops: Holy Ashes
+	Abilitys: Howl, Howlslash
+
+	Ryudo: Tenseiken Slash, then Combo at Gargoyle.
+
+
+Enc #2	< 1x Gargoyle (380 HP) > | 18 EXP | 54 SC | 21 MC | 12 G
+
+	Relevant Drops: Holy Ashes
+	Abilitys: Howl, Howlslash
+
+	Ryudo: Tenseiken Slash, then Combo at Gargoyle.
+
+
+Enc #3	< 1x Gargoyle (380 HP) > | 18 EXP | 54 SC | 21 MC | 12 G
+
+	Relevant Drops: Holy Ashes
+	Abilitys: Howl, Howlslash
+
+	Ryudo: Tenseiken Slash, then Combo at Gargoyle.
+
+
+Path	Recover -> Head up for part 4
+
+	(4) --
+
+Path	Defeat Gargoyles -> Inspect Door -> Break Window -> Elena Cutscene -> Carbo
+
+
+Boss #1	< 2x Gargoyle (380 HP) > | 36 EXP | 108 SC | 42 MC | 24 G
+
+	Relevant Drops: Holy Ashes
+	Abilitys: Howl, Howlslash
+
+	Ryudo: Hand Grenade at Center. Tenseiken Slash each Gargoyle once.
+
+
+	[Carbo Village #2] Encounters: 0 | Bosses: 1
+
+Path	Carbo Entrance -> Church (Carius) -> Battle Millenia
+
+
+Boss #1	< 1x Millenia > | You can not win this battle
+
+	Relevant Drops: --
+	Abilitys: Burn!, Stram, Zap!
+
+	Ryudo: Defend until Millenia uses Zap!
+
+
+Path	Carbo Inn (Carius) -> Elena joins party -> Leave Inn -> Leave Carbo
+
+Items	Golden Statue (Carius)
+
+
+	[Inor Mountains] Encounters: 0 | Bosses: 0
+
+	(1) --
+
+	(2) Antidote, Yomi's Elixir, Crystal Brooch (chest) | 50g
+
+Path	Camping Cutscene -> Climb up Ladder #1 -> Crush Rock-wall with Boulder ->
+	Temper with all 3 wooden Planks -> Leave Mountains
+
+
+	[Agear Town #1] Encounters: 0 | Bosses: 0
+
+Path	Agear Entrance -> Menu -> Agear Inn -> Vyx, option #1 -> Roan Cutscene ->
+	Millenia Cutscene -> Gonzola Chat -> Shop -> Durham Cave
+
+Menu	equip Elena: Remove all Equipment but the Weapon
+
+Shop	Required Gold:	1.340 G
+
+	sell-ables: 	Golden Statue (500g) | Cuir Boulli (250g) | Silk Hair Band (100g)
+			Pumps (80g) | Crystal Brooch (400g) | Jade Charm (210g)
+
+	buy Jewels:	2x Sleep Charm (500g)
+	buy Items:	5x Paralysis Salve (70g), 5x Eye Drops (70g), 5x Smelling Salts (100g)
+	buy Region:	15x Mushroom Cloud (300g), 5x Hand Grenade (300g)
+
+
+	[Durham Cave] Encounters: 6 | Bosses: 1
+
+	(1) --
+
+Path	Cave Entrance -> Carro Cutscene -> Push Boulder -> Use Lever ->
+	Push down Boulder -> Kill Snakes -> Use Lever -> Kill Frogs -> Head for part 2
+
+
+Enc #1	< 4x Crag Snake (280 HP) > | 48 EXP | 96 SC | 80 MC | 81 G
+
+	Relevant Drops: Snake Earrings
+	Abilitys: --
+
+	Ryudo: Hand Grenade at the center.
+	Millenia: Hand Grenade at the center.
+
+
+Enc #2	< 2x Frost Frog (400 HP) > | 22 EXP | 52 SC | 34 MC | 74 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Ryudo: Fair play.
+	Millenia: Burn! on each frog.
+
+
+	(2) --
+
+Path	Menu -> Kill Trogolytes -> Roan joins Party
+
+Menu	equip Ryudo: +Sleep Charm
+	equip Millenia:	 +Sleep Charm
+
+
+Enc #3	< 3x Troglodyte (980 HP) > | 72 EXP | 120 SC | 30 MC | 320 G
+
+	Relevant Drops: Mist Egg
+	Abilitys: Sleep Seed
+
+	Ryudo: Holy Ashes at the center. Pick off survivors with Tenseiken Slash.
+	Millenia: Zap! at the center. Pick off survivors with Burn!
+
+
+Path	Kill Snakes -> Activate Floor-Buttons -> Kill Trogolytes
+
+
+Enc #4	< 4x Crag Snake (280 HP) > | 48 EXP | 96 SC | 80 MC | 81 G
+
+	Relevant Drops: Snake Earrings
+	Abilitys: --
+
+	Ryudo: Hand Grenade at the center. Else, Fair play.
+	Millenia: Hand Grenade at the center. Else, Fair play.
+	Roan: Hand Grenade at the center. Else, Fair play.
+
+
+Enc #5	< 3x Troglodyte (980 HP) > | 72 EXP | 120 SC | 30 MC | 480 G
+
+	Relevant Drops: --
+	Abilitys: Sleep Seed
+
+	Ryudo: Holy Ashes at the center. Pick off survivors with Tenseiken Slash.
+	Millenia: Zap! at the center. Pick off survivors with Burn!
+	Roan: Cancel the center. Pick off survivors with Golden Hammer.
+
+
+Path	Use Lever -> Push down Boulder -> Recover -> Head for part 3
+
+
+	(3) --
+
+Path	Defeat Minotaur -> Cutscene -> Leave for part 2
+
+
+Boss #1	< 2x Troglodyte (980 HP) / 1x Durham Minotaur (4200 HP)> | 258 EXP | 800 SC | 20 MC  | 320 G
+
+	Relevant Drops: Adventure Book
+	Abilitys: Sleep Seed (Troglodyte), Tornado Horn (Minotaur)
+
+	Ryudo: Critical or Tenseiken Slash to cancel Tornado Horn, else Mushroom Clouds.
+	Millenia: Zap! + Fallen Wings to eliminate Troglodytes. Burn! on Minotaur.
+	Roan: Critical or Golden Hammer to cancel Tornado Horn, else Mushroom Clouds.
+
+Details	Defend against Tornado Horns that you can't cancel in time. Use Smelling Salts to
+	cure confused characters. Use Eye Drops to cure Roan, if he gets put to sleep.
+
+
+	(2) --
+
+Path	Head over the pushed-down Boulder -> Leave for part 1
+
+	(1) Yomi's Elixir
+
+Path	Kill Frogs -> Jump down the Shortcut -> Leave Cave
+
+
+Enc #6	< 2x Frost Frog (400 HP) > | 22 EXP | 52 SC | 34 MC | 74 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Ryudo: Fair play.
+	Millenia: Burn! on each frog.
+	Roan: Fair play.
+
+
+	[Agear Town #2] Encounters: 0 | Bosses: 0
+
+Path	Agear Inn -> Leave Inn -> Leave Agear through Northgate
+
+
+	[Baked Plains] Encounters: 0 | Bosses: 1
+
+	(1) 200g | 200g
+
+	(2) 200g
+
+	(3) --
+
+Path	Menu -> Skip 2 Cutscenes -> Campfire -> Defeat Mareg -> Leave Plains
+
+Menu	upgrade Adv.Book:	Life Up +4, Skilled Item Use +5
+
+	skequip Ryudo: | Life Up (Adv) | -- | -- | -- |
+	skequip Elena: | Item Use (Adv) | -- | -- | -- |
+
+	equip Roan: +Rune Necklace, +Chaos Egg
+
+Path	Recover
+
+Camp	Elena -> Roan -> Elena -> Roan -> Elena -> Roan -> Elena -> Ryudo 
+
+
+Boss #1	< 1x Beast-Man (4.800 HP) > | 150 EXP | 100 SC | 0 MC | 0 G
+
+	Relevant Drops: --
+	Abilitys: Beast-Fang Cut
+
+	Ryudo: Defend.
+	Elena: Spam Mushroom Clouds.
+	Roan: Spam Burn!
+
+
+	[Liligue Town #1] Encounters: 0 | Bosses: 0
+
+Path	Liligue Entrance -> Liligue Inn -> Innkeeper, option #1 -> Campfire -> Shop -> Family Cutscene -> 
+	Gadan's House (Gadan) -> Church (Father)-> Mareg joins Party -> Liligue Cave
+
+Camp	Elena -> Roan -> Elena -> Ryudo -> Elena -> Ryudo -> Elena -> Ryudo
+
+Shop	Gold required: 2.950 G
+
+	sell-ables:	Silver Bracelet (200g) | Leather Brace (120g) | Snake Earrings* (400g)
+
+	buy Armor:	2x Guardian Hat (900g) for Roan/Inv
+	buy Items:	5x Healing Herb (250g)
+	buy Region:	30x Insecticide Bomb (1800g)
+
+
+	[Liligue Cave] Encounters: 0 | Bosses: 1
+
+	(1.1) --
+
+	(2.1) 1200g
+
+	(1.2) Mogay Bomb | Reflection Ring
+
+	(2.2) Bonds of Trust (chest) | Confusion Charm (chest) |
+	Holy Wound Salve, Fire Pendant, Flamberge (chest) | 400g
+
+Path	Activate Monolith -> Use Blue Orb -> Use Green Orb -> Push Boxes together ->
+	Use Red Orb -> Use Yellow Orb
+
+	(3) --
+
+Path	Recover if needed -> Head for part 4
+
+	(4) Smelling Salts, Burning Bow, Flare Dress (chest)
+
+Path	Tongue Cutscene -> Millenia replaces Elena -> Menu -> Head for part 5
+
+Menu	equip Millenia: 	+Sleep Charm
+	equip Mareg: +Guardian Hat
+
+	skequip Ryudo:	| Life Up (Adv) | Item Use (Adv) | -- | -- |
+
+	(5) --
+
+
+Boss #1	< 1x Tongue of Valmar (8.000 HP) > | 500 EXP | 1.200 SC | 800 MC | 800 G
+	< Right Hand (4.000 HP) > | < Left Hand (4.000 HP) > | < Head (5.000 HP) >
+
+	Relevant Drops: Ancient Cuirass, Revival Gem, Book of Wizards
+	Dangerous Abilitys: Starving Tongue, Gluttony, Eat 'em Alive
+
+	Ryudo: Throw Insecticide Bomb at Tongue.
+	Millenia: Throw Insecticide Bomb at Tongue.
+	Roan: Throw Insecticide Bomb at Tongue.
+	Mareg: Throw Insecticide Bomb at Tongue.
+
+Details	Snooze shouldn't be able to put you to asleep, with Sleep charms/Guardian Hats 
+	equipped. If a partymember sinks below 300 HP, throw in a Healing Herb.
+
+
+	[Liligue Town #2 & Skyway] Encounters: 0 | Bosses: 0
+
+Path	Gadan's House -> Skyway -> Camp -> Skip cutscene -> Lumir Forest
+
+Camp	Elena -> Elena -> Elena -> Elena -> Ryudo -> Ryudo -> Elena -> Ryudo
+
+
+	[Lumir Forest] Encounters: 9 | Bosses: 0
+
+	(0) 400g
+
+	(1) Insecticide Bomb
+
+
+Enc #1	< 2x Big Foot (750 HP) > | 58 EXP | 94 SC | 70 MC | 92 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Insecticide Bomb.
+
+
+Enc #2	< 2x Big Foot (750 HP) > | 58 EXP | 94 SC | 70 MC | 92 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Insecticide Bomb.
+
+
+	(Cavern 1) 400g
+
+
+Enc #3	< 3x Giant Crab > | 108 EXP | 111 SC | 111 MC | 48 G
+
+	Relevant Drops: --
+	Abilitys: Sleep Dance
+
+	Anyone: Throw Insecticide Bomb.
+
+
+Enc #4	< 3x Giant Crab > | 108 EXP | 111 SC | 111 MC | 48 G
+
+	Relevant Drops: --
+	Abilitys: Sleep Dance
+
+	Anyone: Throw Insecticide Bomb.
+
+
+Menu	upgrade Chaos Egg:	Snooze +4, Runner +3, Stram +2, Burnflame +4
+
+	upgrade Wiz.Book:	Intelligence +4
+
+	skequip Roan: | Intel (Wiz)  | -- | -- | -- |
+
+	equip Ryudo: +Bonds of Trust
+
+	(2) 1200g
+
+
+Enc #5	< 4x Big Foot (750 HP) > | 116 EXP | 188 SC | 140 MC | 184 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Roan: Burnflame on the Center.
+	Ryudo: Bonds of Trust on Roan.
+	Elena/Mareg: Fair play.
+
+
+Enc #6	< 4x Big Foot (750 HP) > | 116 EXP | 188 SC | 140 MC | 184 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Roan: Burnflame on the Center.
+	Ryudo: Bonds of Trust on Roan.
+	Elena/Mareg: Fair play.
+
+
+	(Cavern 2) --
+
+	(3) Blueberry | Icefang Stone, Arctic Cape, Ice Pick (chest)
+
+Path	Enter Garden of Dreams -> Aira Cutscene -> Leave Garden -> Leave Forest
+
+
+Enc #7	< 4x Big Foot (750 HP) > | 116 EXP | 188 SC | 140 MC | 184 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Roan: Burnflame on the Center.
+	Ryudo: Bonds of Trust on Roan.
+	Elena/Mareg: Fair play.
+
+
+Enc #8	< 4x Big Foot (750 HP) > | 116 EXP | 188 SC | 140 MC | 184 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Roan: Burnflame on the Center.
+	Ryudo: Bonds of Trust on Roan.
+	Elena/Mareg: Fair play.
+
+
+Enc #9	< 2x Big Foot (750 HP) > | 58 EXP | 94 SC | 70 MC | 92 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Insecticide Bomb.
+
+
+	[Mirumu Village #1] Encounters: 0 | Bosses: 0
+
+Path	Village Chief's Hause -> Mirumu Inn (Irina) -> Sandra's House (Aira) ->
+	Village Entrance (Selene) -> Selene Cutscene/Chat -> Mirumu Inn (Irina, option #1) ->
+	Camp -> Nightmare Cutscene -> Check Window -> Irina -> Fissure
+
+Camp	Mareg -> Roan -> Mareg -> Ryudo -> Mareg -> Ryudo -> Mareg -> Ryudo
+
+
+	[Mysterious Fissure] Encounters: 0 | Bosses: 1
+
+	(1) Wing Boots | 1500g
+
+Path	Menu -> Recover
+
+Menu	upgrade Mareg:		Beast-King Smash +3
+
+	upgrade Adv.Book:	Strength +5
+	upgrade Wiz.Book:	Zapfire Chant +2
+
+	skequip Mareg:	| Strength (Adv) | -- | -- | -- |
+	skequip Roan: | Intel (Wiz) | Zapfire (Wiz) | -- | -- |
+
+	equip Mareg:	+Wing Boots
+
+	(2) --
+
+
+Boss #1	< 4x Eyeball Bat (3.000 HP) > | 200 EXP | 900 SC | 900 MC | 585 G
+
+	Relevant Drops: Book of Warriors
+	Abilitys: Delta Burst
+
+	Roan: Burnflame on the current Focus.
+	Mareg: Beast-King Smash on the current Focus.
+	Ryudo/Elena: Insecticide Bomb on the current Focus.
+
+Details	Keep track of everbodys HP, use Healing Herbs of characters sink below 240 HP.
+	Try to Defend against Delta Bursts, if you have to. A dead character loses more time.
+
+
+	[Mirumu Village #2] Encounters: 0 | Bosses: 0
+
+Path	Mirumu Inn -> Town Hall (Selene) -> Fissure (Aira) -> Shed -> Garden of Dreams ->
+	Leave Garden/Lumir Forest -> Sandra's House -> Menu ->  Shop -> Leave Mirumu ->
+	Garden of Dreams -> Portal to Fissure -> Aira's Space (Millenia, option #1)
+
+Menu	upgrade Warr.Book:	Life Up +4
+	upgrade Wiz.Book:	Zapfire Chant +4
+
+	skequip Roan: | Life Up (Warr) | -- | -- | -- |
+	skequip Millenia: | Intel (Wiz) | Zapfire (Wiz) | -- | -- | 
+
+	equip Roan: +Hide Turban, +Blizzard Charm, +Holy Egg
+	equip Mareg: +Confusion Charm
+	equip Ryudo: +Flamberge, +Guardian Hat
+	equip Millenia: +Revival Gem, +Chaos Egg
+
+Shop	Gold required: 10.550 G
+
+	sell-ables:	Rune Necklace (375g) | Reflection Ring (375g) | Fire Pendant (400g)
+			Arctic Cape (400g) | 2x Sleep Charm (250g) | Hercules Brace (330g)
+			Ancient Cuirass (1800g) | Flare Dress (1490g) |  Bandana (125g)
+			Hair Band (100g) | Giant's Shoes (260g)
+
+	buy Weapon:	Hammer Axe (2200g) for Mareg
+	buy Armor:	2x Pixie's Robe (5200g) for Roan/Millenia
+	buy Items:	5x Healing Herb (250g)
+	buy Region:	5x Lumir Flower (200g), 5x Blueberry (200g), 10x Mogay Bomb (2500g)
+
+
+	[Aira's Space] Encounters: 10 | Bosses: 1
+
+	(1) 500g | Yomi's | 500g | 1500g
+
+
+Enc #1	< 6x Star Mirage (720 HP) > | 96 EXP | 234 SC | 114 MC | 438 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo: Bonds of Trust on Millenia.
+	Roan/Mareg: Fair play.
+
+
+Enc #2	< 6x Star Mirage (720 HP) > | 96 EXP | 234 SC | 114 MC | 438 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo: Bonds of Trust on Millenia.
+	Roan/Mareg: Fair play.
+
+
+Enc #3	< 6x Star Mirage (720 HP) > | 96 EXP | 234 SC | 114 MC | 438 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo: Bonds of Trust on Millenia.
+	Roan/Mareg: Fair play.
+
+
+	(2) Battle Manicure | Illusion Clothes, Mirage Earring, Bonds of Trust (chest) |
+	Moebius Ring | 1500g | 500g
+
+Path	Grinding -> Menu -> Recover
+
+
+Enc #4	< 6x Huge Caterpillar (630 HP) > | 126 EXP | 198 SC | 216 MC | 30 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo: Bonds of Trust on Millenia.
+	Roan/Mareg: Fair play.
+
+
+Enc #5	< 6x Huge Caterpillar (630 HP) > | 126 EXP | 198 SC | 216 MC | 30 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo: Bonds of Trust on Millenia.
+	Roan/Mareg: Fair play.
+
+
+Enc #6	< 6x Huge Caterpillar (630 HP) > | 126 EXP | 198 SC | 216 MC | 30 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Mogay Bomb at the Center.
+
+
+Enc #7	< 4x Hellhound (580 HP > | 76 EXP | 88 SC | 212 MC | 216 G
+
+	Relevant Drops: Ogre Slayer
+	Abilitys: --
+
+	Anyone: Mogay Bomb at the Center.
+
+
+Enc #8	< 3x Giant Caterpillar (630 HP) / 2x Hellhound (580 HP) > | 101 EXP | 143 SC | 214 MC| 69 G
+
+	Relevant Drops: Ogre Slayer
+	Abilitys: --
+
+	Anyone: Mogay Bomb at the Center.
+
+
+Enc #9	< 3x Giant Caterpillar (630 HP) / 2x Hellhound (580 HP) > | 101 EXP | 143 SC | 214 MC | 69 G
+
+	Relevant Drops: Ogre Slayer
+	Abilitys: --
+
+	Anyone: Mogay Bomb at the Center.
+
+
+Enc #10	< 4x Hellhound (580 HP > | 76 EXP | 88 SC | 212 MC| 216 G
+
+	Relevant Drops: Ogre Slayer
+	Abilitys: --
+
+	Anyone: Mogay Bomb at the Center.
+
+
+Menu	upgrade Holy Egg:	Snooze +4
+	upgrade Chaos Egg:	Burnflame +5
+
+	upgrade Wiz.Book:	Intelligence +5, Boomflame Chant +4
+	upgrade Warr.Book:	Speed +5
+
+	skequip Mareg: | Strength (Adv) | Speed (Warr) | -- | -- |
+	skequip Millenia: | Intel (Wiz) | Zapfire (Wiz) | Boomflame (Wiz) | -- |
+
+	(3) --
+
+
+Boss #1	< 1x Eye of Valmar (12.000 HP) / 4x Eyeball Bat (3.000 HP) > | 800 EXP | 1.800 SC | 1.800 MC | 1.200 G
+	< Left Tendril (6.000 HP) > | < Right Tendril (6.000 HP) >
+
+	Relevant Drops: Gravity Egg, Warp Knife, Demon's Tears
+	Relevant Abilitys: Spellbinding Eye, Delta Burst
+
+	Ryudo: Bonds of Trust on Millenia.
+	Millenia: Burnflame on Eye of Valmar.
+	Mareg: Beast-King Smash and Criticals on Eye of Valmar.
+	Roan: Snooze until at least 1 Bat is down. Then Item-Support.
+
+Details	Scatter the party, to avoid several people getting hit by AoE.
+
+
+	[Mirumu Village #3] Encounters: 0 | Bosses: 0
+
+Path	Sandra's House -> Mirumu Entrance (Selene) -> Leave Mirumu
+
+
+	[St. Heim Mountains] Encounters: 0 | Bosses: 0
+
+	(0) 500g
+
+	(Cave 1) 500g
+
+	(1) --
+
+	(Cave 2) 1500g
+
+Camp	Elena -> Elena -> Ryudo -> Mareg -> Roan -> Elena -> Ryudo
+
+	(Waterfall 1) Battle Manicure, Silver Feather, Godspeed Ring (chest)
+
+	(2) 1500g
+
+	(Cave 3) Yomi's Elixir | 500g
+
+	(3) 500g | Holy Wound Salve
+
+Camp	Elena -> Mareg -> Mareg -> Roan -> Roan -> Ryudo -> Ryudo
+
+	(Cave 4) --
+
+	(Waterfall 2) --
+
+	(4) 500g | 1500g
+
+
+	[St. Heim #1] Encounters: 0 | Bosses: 0
+
+Path	St. Heim Inn (Innkeeper, option #1) -> Cathedral -> Lobby (Priest, option #1) ->
+	Audience Chamber (Zera) -> Pope's Room -> Library (Roan, Mareg) ->
+	Guest Room (Priest) -> Balcony -> Guest Room -> Audience Chamber (Zera) ->
+	Leave Cathedral -> Shop -> Leave St. Heim
+
+Items	Book of Priests (Zera)
+
+Shop	Gold required: 9.500 G
+
+	buy Region:	10x Butter Roll (1200g), 10x Holy Ashes (2000g)
+	buy Jewel:	1x Move Block Charm (400g)
+	buy Armor:	2x Sister's Hat (3500g) for Ryudo/Mareg, 
+			3x Heavy Boots (2400g) for Ryudo/Roan/Inv
+
+
+	[Pilgrim Road] Encounters: 0 | Bosses: 0
+
+	(1) --
+
+
+	[Raul Hills] Encounters: 1 | Bosses: 0
+
+	(1) Buster Flail | Earthen Cuirass
+
+	(2) Quake Stone, Alheal Scroll, Rage Ring (chest) | Revival Gem (shroom)
+
+Path	Destroy Rocks for Chest -> Cross East-Bridge -> Take Boat -> Leave Hills
+
+
+Enc #1	< 4x Dragonoid (960 HP) > | 128 EXP | 124 SC | 168 MC | 189 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Holy Ashes at Center.
+
+
+	[Cyrum #1] Encounters: 0 | Bosses: 0
+
+Path	Cyrum Entrance -> Shop -> Cyrum Inn (Innkeeper, option #1) -> Hemble's Tent ->
+	Armwrestling -> Juice Vendor (option #4) -> Millenia -> Mau-Tent -> Boat ->
+	Menu -> Paulk -> Secret Passage
+
+Shop	Required Gold: 20.250 G
+
+	sell-ables:	Geoblade (200g) | Buster Flail (2200g) | Burning Bow (720g)
+			Warp Knife (1375g) | Ice Pick (720g) | Battleax (590g)
+			Earthen Cuirass (4100g) | Crimson Bolero (560g) | Illusion Clothes (1740g)
+			Adventure Suit (360g) | Leather Leggings (140g) | Children Shoes (90g)
+			Demon's Tears (2500g) | Revival Gem (2500g) | Mirage Earring (300g)
+			Moebius Ring (375g)
+
+	buy Weapon:	Halberd (4400g) for Mareg
+	buy Armor:	2x Purple Robe (9000g) for Roan/Inv, 2x Wizard's Hat (4000g) for Roan/Inv
+	buy Items:	5x Alheal Scroll (600g), 5x Move Blessing (250g)
+	buy Region:	10x Icefang Stone (1500g), 10x Exhaustion Nut (500g)
+
+Menu	upgrade Prie.Book:	Life Up +4
+	upgrade Wiz.Book:	Zapfire Chant +5, Boomflame Chant +5
+
+	skequip Millenia: | Intel (Wiz) | Zapfire (Wiz) | Boomflame (Wiz) | -- |
+	skequip Mareg: | Strength (Adv) | Speed (Warr) | Life Up (Prie) | -- |
+
+	equip Ryudo: +Mist Egg
+	equip Millenia: +Godspeed ring, +Heavy Boots, +Wizard's Hat, +Purple Robe
+	equip Roan: +Bonds of Trust
+	equip Mareg: +Rage Ring, +Gravity Egg
+
+
+	[Cyrum Secret Passage] Encounters: 2 | Bosses: 0
+
+	(1) 2100g | 700g
+
+Path	Move first Box -> Push down second Box -> Climb down first Ladder -> Use first Lever ->
+	Cross first Bridge -> Use second Lever -> Cross second Bridge -> Climb up second Ladder ->
+	Use third Lever -> Climb down second Ladder -> Enter Castle
+
+
+Enc #1	< 2x Chameleon (780 HP) / 2x Skull Snail (920 HP) > |88 EXP | 104 SC | 118 MC | 130 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at Center.
+	Ryudo: Bonds of Trust on Millenia.
+	Roan/Mareg: Fair Play.
+
+
+Enc #2	< 4x Dragonoid (960 HP) > | 128 EXP | 124 SC | 168 MC | 189 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Holy Ashes at Center.
+
+
+	[Cyrum Castle #1] Encounters: 0 | Bosses: 0
+
+Path	Hallway -> Room of Demon-Sealing (Menory) -> Hallway -> Recover ->
+	Throne Room -> King's Office (King) -> Room of Demon-Sealing -> Underground Plant
+
+
+	[Underground Plant] Encounters: 21 | Bosses: 1
+
+	(1) 700g | Soul Eater | 700g | 2100g
+
+
+Enc #1	< 2x Skull Snail (920 HP) / 2x Dragonoid (960 HP) > | 124 EXP | 112 SC | 176 MC | 156 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Holy Ashes at Center.
+
+
+Enc #2	< 4x Skull Snail (920 HP) > | 120 EXP | 100 SC | 184 MC | 30 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Enc #3	< 3x Warp Warrior (850 HP) > | 84 EXP | 177 SC | 9 MC | 82 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Enc #4	< 2x Skull Snail (920 HP) / 2x Dragonoid (960 HP) > | 124 EXP | 112 SC | 176 MC | 156 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Holy Ashes at Center.
+
+
+Enc #5	< 2x Skull Snail (920 HP) / 2x Dragonoid (960 HP) > | 124 EXP | 112 SC | 176 MC | 156 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Holy Ashes at Center.
+
+
+Enc #6	< 3x Warp Warrior (850 HP) / 2x Dragonoid (960 HP) > | 148 EXP | 239 SC | 93 MC | 249 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Holy Ashes at Center.
+
+
+(2) Revival Gem (chest) | 700g | 700g | 2100g | 700g | Miracle Elixir
+
+
+Enc #7	< 2x Vein Brain (800 HP) / 2x Skull Snail (920 HP) > | 94 EXP | 66 SC | 222 MC | 159 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Enc #8	< 2x Vein Brain (800 HP) / 2x Skull Snail (920 HP) > | 94 EXP | 66 SC | 222 MC | 159 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Path	Recover
+
+
+Enc #9	< 4x Vein Brain (800 HP) > | 68 EXP | 32 SC | 260 MC | 144 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Enc #10	< 3x Warp Warrior (850 HP) / 2x Skull Snail (920 HP) > | 144 EXP | 227 SC | 101 MC | 138 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Enc #11	< 4x Vein Brain (800 HP) > | 68 EXP | 32 SC | 260 MC | 144 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Enc #12	< 3x Warp Warrior (850 HP) / 2x Skull Snail (920 HP) > | 144 EXP | 227 SC | 101 MC | 138 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Enc #13	< 2x Vein Brain (800 HP) / 2x Skull Snail (920 HP) > | 94 EXP | 66 SC | 222 MC | 159 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Enc #14	< 3x Warp Warrior (850 HP) / 2x Skull Snail (920 HP) > | 144 EXP | 227 SC | 101 MC | 138 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Enc #15	< 6x Warp Warrior (850 HP) > | 168 EXP | 354 SC | 18 MC | 246 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+	(3) 700g | 2100g | Warp Shoes
+
+Menu	use 5x Lumir Flower on Millenia
+
+
+Enc #16	< 3x Warp Warrior (850 HP) / 2x Skull Snail (920 HP) > | 144 EXP | 227 SC | 101 MC | 138 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Enc #17	< 3x Warp Warrior (850 HP) / 2x Vein Brain (800 HP) > | 118 EXP | 193 SC | 139 MC | 226 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Enc #18	< 3x Warp Warrior (850 HP) / 2x Skull Snail (920 HP) > | 144 EXP | 227 SC | 101 MC | 138 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Enc #19	< 2x Vein Brain (800 HP) / 2x Skull Snail (920 HP) > | 94 EXP | 66 SC | 222 MC | 159 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Enc #20	< 2x Vein Brain (800 HP) / 2x Skull Snail (920 HP) > | 94 EXP | 66 SC | 222 MC | 159 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Enc #21	< 6x Warp Warrior (850 HP) > | 168 EXP | 354 SC | 18 MC | 246 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Millenia: Burnflame at the Center.
+	Ryudo/Roan: Bonds of Trust on Millenia.
+	Mareg: Fair play.
+
+
+Menu	upgrade Mareg:		Beast-King Smash +5
+
+Path	Recover
+
+	(4) --
+
+
+Boss #1	< 1x Claw of Valmar (14.000 HP) > | 1.000 EXP | 2.400 SC | 1.200 MC | 2.100 G
+	< Left Arm (9.000 HP) > | < Right Arm (8.000 HP) >
+
+	Relevant Drops: Book of Gales, Mana Insignia
+	Dangerous Abilitys: Zap!, Fiora, Tail Piercer, Avenging Claw
+
+	Ryudo: Icefang Stones on the Claw. Supply Mareg with Butter Rolls.
+	Roan: Icefang Stones on the Claw. Supply Mareg with Butter Rolls.
+	Millenia: Burnflame on the Claw.
+	Mareg: Beast-King Smash on the Claw.
+
+Details	Spread out the party, to avoid multiple characters getting hit by Bullet-Attacks.
+
+
+	[Cyrum Castle #2] Encounters: 0 | Bosses: 1
+
+Path	Hallway -> Menu -> King's Office -> King's Chamber -> Battle Melfice ->
+	Castle Yard -> Castle Lobby -> Castle Gate (Roan) -> Meet Tio
+
+Menu	upgrade Adv.Book:	Life Up +5
+
+	equip Millenia: Remove all Equipment but the Weapon
+
+Path	Do NOT Recover
+
+
+Boss #1	< 1x Melfice > | You can not win this battle
+
+	Relevant Drops: --
+	Dangerous Abilitys: Demon Horde Slash, Soul Wailing Slash
+
+	Anyone: Defend.
+
+Details	The battle ends when Ryudo gets hit by Soul Wailing Slash. For that, he needs 
+	to be in yellow Health and to be alive.
+
+
+	[Cyrum #2] Encounters: 0 | Bosses: 0
+
+Path	Cyrum Market -> Cyrum Port -> Bakala Chat (option #1)
+
+Menu	upgrade Chaos Egg:	Freeze! +5, Cold +5, Stram +5, Zap All +5
+
+	upgrade Gale.Book:	Stormcloud Chant +5, Skilled Item Use +5
+	upgrade Prie.Book:	Life Up +5
+	upgrade Warr.Book:	Life Up +5
+
+	skequip Elena: | Item Use (Gale) | Life Up (Warr) | -- | -- |
+	skequip Tio: | Intel (Wiz) | Zapfire (Wiz) | Stormcloud (Gale) | -- |
+
+	equip Elena: +Purple Robe, +Wizard's Hat, +Heavy Boots, +Bonds of Trust
+	equip Tio: +Chaos Egg, +Mana Insignia, +Heavy Boots, Wizard's Hat, +Purple Robe
+	equip Ryudo: +Ancient Suit
+
+
+	[50/50] Encounters: 0 | Bosses: 0
+
+Path	Talk twice to Tio -> Elenas Cabin -> Bakala Chat
+
+
+	[Ceceile Reef] Encounters: 1 | Bosses: 1
+
+	(0) --
+
+Path	Campspot -> Camp -> Elena Cutscene -> Crimson Claws Ambush -> Head for Reef 1
+
+Camp	Elena -> Ryudo -> Elena -> Ryudo -> Ryudo
+
+
+Enc #1	< 6x Crimson Claw (1.230 HP) > | 186 EXP | 246 SC | 168 MC | 325 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Tio: Zap All.
+	Ryudo/Elena: Bonds of Trust on Tio if she starts last.
+	Mareg: Fair play.
+
+
+	(1)  Flame Shoes, Flame Bandana, Flame Armor (chest)
+
+	(2) 1000g | 3000g
+
+
+Boss #1	< 2x Crimson Tail (9.800 HP) > | 500 EXP | 2.400 SC | 600 MC | 1.000 G
+
+	Relevant Drops: Soul Egg
+	Dangerous Abilitys: Scissors Storm, Phantom Echo
+
+	Tio: Spam Zap All.
+	Mareg: Beast-King Slash each Crimson Tail.
+	Ryudo/Elena: Bonds of Trust on Tio.
+
+
+	(3) --
+
+Path	Bakala Chat -> Leave Ceceile Reef -> Skip Cutscene
+
+
+	[Garlan #1] Encounters: 0 | Bosses: 0
+
+Path	Garlan Port -> Shop -> Village Chief Chat -> Ryudo's House Cutscene ->
+	Garlan Inn (Innkeeper, option #1) -> Head for Grail Mountain
+
+Shop	Gold required: 13.000 G
+
+	sell-ables:	Dark Ring (375g)* | Meteor Earring (750g) | Revival Gem (2500g)
+			Blizzard Charm (200g) | Confusion Charm (125g) | Flame Armor (4600g)
+			Leather Jacket (325g) | Ruby Barrette (175g) | Flame Bandana (1800g)
+			Hide Turban (275g) | Hi-Heels (75g) | Shadow Shoes (775g)
+			Warp Shoes (800g) | Flame Shoes (300g)
+
+	buy Region:	15x Grail Fruit (1800g), 30x Dynamite (7200g)
+	buy Items:	10x Healing Incense (4000g)
+
+Menu	skequip Tio: | Intel (Wiz) | Zapfire (Wiz) | Boomflame (Wiz) | -- |
+
+
+	[Grail Mountain] Encounters: 6 | Bosses: 1
+
+	(1) Double Moon | Face Paint
+
+
+Enc #1	< 3x Clay Bird (1.800 HP) > | 216 EXP | 267 SC | 381 MC | 357 G
+
+	Relecant Drops: Scattering Stone
+	Abilitys: --
+
+	Tio: Burnflame on the Center.
+	Ryudo/Elena/Mareg: Dynamite at the Center.
+
+
+Enc #2	< 3x Clay Bird (1.800 HP) > | 216 EXP | 267 SC | 381 MC | 357 G
+
+	Relecant Drops: Scattering Stone
+	Abilitys: --
+
+	Tio: Burnflame on the Center.
+	Ryudo/Elena/Mareg: Dynamite at the Center.
+
+
+Enc #3	< 3x Clay Bird (1.800 HP) > | 216 EXP | 267 SC | 381 MC | 357 G
+
+	Relecant Drops: Scattering Stone
+	Abilitys: --
+
+	Tio: Burnflame on the Center.
+	Ryudo/Elena/Mareg: Dynamite at the Center.
+
+
+	(2) Dark Armor | Move Blessing, Bonds of Trust, Earthen Axe (chest)
+
+
+Enc #4	< 3x Man-Eating Tree (1.340 HP) > | 162 EXP | 189 SC | 153 MC | 210 G
+
+	Relecant Drops: Scattering Stone
+	Abilitys: --
+
+	Tio: Burnflame on the Center.
+	Ryudo/Elena/Mareg: Fair play.
+
+
+Enc #5	< 3x Clay Bird (1.800 HP) > | 216 EXP | 267 SC | 381 MC | 357 G
+
+	Relecant Drops: Scattering Stone
+	Abilitys: --
+
+	Tio: Burnflame on the Center.
+	Ryudo/Elena/Mareg: Dynamite at the Center.
+
+
+Enc #6	< 3x Clay Bird (1.800 HP) > | 216 EXP | 267 SC | 381 MC | 357 G
+
+	Relevant Drops: Scattering Stone
+	Abilitys: --
+
+	Tio: Burnflame on the Center.
+	Ryudo/Elena/Mareg: Dynamite at the Center.
+
+
+	(3) --
+
+Menu	upgrade Tio:		Lotus Flower +3
+
+	upgrade Soul Egg:	Stream +3, Cold +5
+
+	upgrade Warr.Book:	Abandonment +5, Item Recover +5
+
+	skequip Ryudo:	| Item Use (Wiz) | Life Up (Adv) | Item Recover (Warr) | -- |
+	skequip Elena: | Item Use (Gale) | Life Up (Warr) | Abandonment (Warr) | -- |
+
+	equip Elena: +Soul Egg
+	equip Mareg: +Earthen Axe, +Dark Armor
+	equip Tio: +Move Block Charm
+
+	(4) --
+
+
+Boss #1	< 1x Melfice (16.000 HP) > | 1.500 EXP | 3.600 SC | 1.800 MC | 0 G
+	< Sword (11.000 HP) > | < Regenerator (13.000 HP) >
+
+	Relevant Drops: Soul of Asura, Maken Valborg, Book of Swords
+	Dangerous Abilitys: Demon Horde Slash, Wailing Soul Slash, Evil Horn Attack, Quake
+
+	Mareg: Beast-King Smash on Melfice.
+	Ryudo: Dynamite on Melfice. Butter Rolls on Mareg.
+	Elena: Dynamite on Melfice. Butter Rolls on Mareg.
+	Tio: Burnflame on Melfice.
+
+Details	Reduce Melfice Act to -5 with Cold/Exhaustion Nut. Cancel Demon Horde Slash if possible
+	with Tio's Lotus Flower. Defend against Wailing Soul Slash. Battle Manicure on Mareg.
+
+
+	[Garlan #2] Encounters: 0 | Bosses: 0
+
+Path	Melfice Grave -> Bakala (option #1) -> Ship to Ghoss Forest
+
+Items	Friends Necklace (Gatta)
+
+
+	[Ghoss Forest West] Encounters: 4 | Bosses: 0
+
+	(1) Sylph's Robe
+
+
+Enc #1	< 4x Flame Toad (940 HP) > | 140 EXP | 80 SC | 128 MC | 72 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Dynamite at the Center.
+
+
+	(2) Divine Talisman
+
+
+Enc #2	< 4x Pit Viper (1.080 HP) > | 208 EXP | 180 SC | 188 MC | 141 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Dynamite at the Center.
+
+
+Enc #3	< 4x Pit Viper (1.080 HP) > | 208 EXP | 180 SC | 188 MC | 141 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Dynamite at the Center.
+
+
+Enc #4	< 4x Giga Mantis (1.460 HP) > | 168 EXP | 196 SC | 64 MC | 212 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Dynamite at the Center.
+
+
+	[Nanan Village] Encounters: 0 | Bosses: 0
+
+Path	Entrance -> Village Elder's House (Elder) -> Hut of Trials -> Stone Tablet -> Nut Minigame ->
+	Village Elder -> Nanan Spring -> Check for Elena -> Shop -> Leave Nanan
+
+Items	Nut of Light (Hut of Trials) | Ring of Guarding (Hut of Trials)
+
+Shop	Gold required: 18.700 G
+
+	sell-ables:	Soul of Asura (6000g) | Friends Necklace (1250g) | Shoulder Guards (640g)
+			Sylph's Robe (6400g) | Soul Eater (3400g) | Double Moon (3450g)
+			Halberd (2200g) | Hammer Axe (1100g)
+
+	buy Weapon:	Bardiche (8000g) for Mareg
+	buy Region:	20x Baobab Fruit (7200g), 10x Dynamite (2400g), Red Goblin Toad (600g),
+			Speed Mushroom (500g)
+
+
+	[Ghoss Forest Each] Encounters: 0 | Bosses: 0
+
+	(1) --
+
+	(2) Dragon Scales | Black Belt
+
+
+	[The Great Rift] Encounters: 3 | Bosses: 0
+
+	(1) Seed of Moves, Man's Iron Clogs, Man's Headband (chest)
+
+
+Enc #1	< 4x Giga Mantis (1.460 HP) > | 168 EXP | 196 SC | 64 MC | 212 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Dynamite at the Center.
+
+
+Enc #2	< 4x Giga Mantis (1.460 HP) > | 168 EXP | 196 SC | 64 MC | 212 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Dynamite at the Center.
+
+
+	(2) Discus
+
+
+Enc #3	< 6x Fenny Bird (1.570 HP) > | 294 EXP | 84 SC | 456 MC | 156 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Anyone: Throw Dynamite at the Center.
+
+
+Menu	upgrade Tio:		Lotus Flower +5
+
+	upgrade Chaos Egg:	Snooze +5, Fiora +5, Runner +5, Howl +5, Howlslash +2, DragonZap +5
+
+	upgrade Sword.Book:	Special Power +5, Strength +5
+
+	skequip Mareg:	| Strength (Adv) | Speed (Warr) | Strength (Swo) | Special Power (Swo) |
+	skequip Tio: | Intel (Wiz) | Zapfire (Wiz) | Stormcloud (Gale) | Life Up (Prie) |
+
+	equip Tio: +Mana Insignia
+	equip Mareg: +Black Belt
+
+Path	Recover
+
+	(3) Serpentine
+
+
+	[Demon's Law] Encounters: 0 | Bosses: 3
+
+	(1) Exorcism Bow
+
+
+Boss #1	< 1x Leck Guarder (17.000 HP) / 2x Snow Leopard (4.600 HP) > | 700 EXP | 1.600 SC | 320 MC | 600 G
+
+	Relevant Drops: Inferno Battleax
+	Dangerous Abilitys: Buster Horn (Guarder), Crackle (Leopard)
+
+	Mareg: Beast-King Smash on Leck Guarder.
+	Tio: 2x Zap All to finish off Snow Leopards, then DragonZap on Leck Guarder.
+	Ryudo: Bonds of Trust on Tio for faster Zap All.
+	Elena: Bonds of Trust on Tio for faster Zap All.
+
+Details	Throw the one Serpentine you have early on to get rid of Snow Leopards faster. Try to
+	cancel Buster Horn with Lotus Flower. Defend against Buster Horn if you can't Cancel in time.
+
+
+Menu	equip Mareg: +Inferno Battleax
+
+Path	Recover
+
+
+Boss #2	< 2x Naga Queen (15.000 HP) > | 750 EXP | 0 SC | 1.280 MC | 800 G
+
+	Relevant Drops: Star Egg
+	Dangerous Abilitys: Freezing Eye
+
+	Mareg: Beast-King Smash the current focus.
+	Tio: DragonZap the current Focus. If possible, hit both Naga Queens.
+	Ryudo: Bonds of Trust on Mareg/Tio.
+	Elena: Bonds of Trust on Mareg/Tio. Cancel Freezing Eye if needed.
+
+
+Menu	use Grail Fruit on Tio
+	use Baobab Fruit on Mareg
+	use Alheal Scroll
+
+	(2) --
+
+Path	Defeat Tio Clone -> Deactivate Sandstorm -> Leave Demon's Law -> Head for Rift part 3
+
+
+Boss #3	< Tio Clone (25.000 HP) > | 900 EXP | 4.000 SC | 4.000 MC | 0 G
+
+	Relevant Drops: Balor
+	Dangerous Abilitys: Tornado, Lotus Flower
+
+	Mareg: Beast-King Smash on Tio Clone.
+	Tio: 1x Cold early on, then DragonZap.
+	Ryudo: SP/MP recovery support, Dynamite as filler.
+	Elena: 1x Cold early on. SP/MP recovery support, Dynamite as filler.
+
+Details	Use Face Paint on Tio Clone. Exhaustion Nut on Tio Clone to get her Act to -5. Cancel
+	Tornado with Lotus Flower if needed. Defend if you can't Cancel in time.
+
+
+	[Body of Valmar] Encounters: 0 | Bosses: 1
+
+	(0) --
+
+Path	Skip 2 cutscenes -> Enter Body of Valmar -> Menu
+
+Menu	upgrade Holy Egg:	Cure +5, Refresh +5, WOW! +5, Crackle +5
+
+	upgrade Gale.Book:	Northwind Chant +5
+	upgrade Prie.Book:	Glacier Chant +5
+
+	skequip Ryudo:	 | Item Use (Wiz) | Life Up (Adv) | Item Recover (Warr) | Item Use (Gale) |
+	skequip Millenia: | Life Up (Warr)| Abandonment (Warr) |  Glacier (Prie)  | Northwind (Gale) |
+	skequip Tio: | Intel (Wiz) | Zapfire (Wiz) | Boomflame (Wiz) | Life Up (Prie) |
+
+	equip Millenia: +Godspeed ring, +Holy Egg
+	equip Tio: +Balor
+
+Path	Recover
+
+	(1) Golden Potion, Azure Potion, Resist Dress (chest)
+
+	(Vein 1) --
+
+Path	Start Left -> Use first 2 Buttons -> Ignore 3rd and 4th Buttons
+
+	(2) --
+
+	(Vein 2) --
+
+Path	Start Right -> Use first 2 Buttons -> Ignore 3rd Button -> Use 4th Button
+
+	(3) --
+
+Path	Recover if needed
+
+	(4) --
+
+Path	Defeat Body of Valmar -> Granasaber Cutscene -> Skip 2 Cutscenes
+
+
+Boss #1	< 1x Body of Valmar (25.000 HP) > | 1.600 EXP | 6.000 SC | 6.000 MC | 4.000 G
+	< Left Tentacle (14.000 HP) > | < Right Tentacle (14.000 HP) >
+	
+	Relevant Drops: Angel Circle, Relief Tag
+	Dangerous Abilitys: Zap!, Zap All, Strangulation
+
+	Mareg: Beast-King Smash at Body.
+	Millenia: Crackle at Body.
+	Tio: Burnflame at Body.
+	Ryudo: Dynamite at Body. Heal up party if needed.
+
+
+	[St. Heim #2] Encounters: 0 | Bosses: 2
+
+Path	St. Heim Pastures -> Shop -> Menu -> Cathedral Knights -> Heart of Valmar
+
+Shop	Gold required: 20.800 G
+
+	sell-ables:	Flamberge (720g) | Exorcism Bow (5750g) |Angel Circle (7750g)
+			Discus (4200g) | Moon Claw (2240g) | Bardiche (4000g)
+			Earthen Axe (3750g)
+
+	buy Region:	15x Super Mogay Bomb (15000g)
+	buy Armor:	1x Priest's Hat (5800g) for Tio
+
+Menu	upgrade Holy Egg:	Diggin` +5, Speedy +5, Runner +5, Fiora +3, Shhh! +5, Crackling +5
+
+	skequip Tio: | Intel (Wiz) | Zapfire (Wiz) | Stormcloud (Gale) | Life Up (Prie) |
+	skequip Elena: | Life Up (Warr)| Abandonment (Warr) |  Glacier (Prie)  | Northwind (Gale) |
+
+	equip Elena: +Holy Egg, +Godspeed ring
+
+
+Boss #1	< 4x Granas Knight (2430 HP) > | 360 EXP | 600 SC | 0 MC | 200 G
+
+	Relevant Drops: 2x Paladin Helmet
+	Abilitys: --
+
+	Elena: Crackling.
+	Ryudo: Bonds of Trust on Elena.
+	Tio/Mareg: Fair play.
+
+
+Boss #2	< 1x Heart of Valmar (22.000 HP) > | 1.800 EXP | 8.000 SC | 8.000 MC | 4.500 G
+	< Left Eye (15.000 HP) > | < Right Eye (15.000 HP) >
+
+	Relevant Drops: Holy Clothes, Goddess Hi-Heels
+	Dangerous Abilitys: Snooze, Avici Slash, Aorta Pummel
+
+	Mareg: Beast-King Smash at Heart.
+	Tio: DragonZap at Heart.
+	Ryudo: Super Mogay Bomb at Heart.
+	Elena: Crackling.
+
+
+Path	Cathedral -> Audience Chamber (Oro) -> Holy Door -> Zera Chat -> Skip Cutscene ->
+	Leave Cathedral -> St. Heim Pastures -> Granasaber -> Skip Cutscene
+
+
+	[Valmar's Moon] Encounters: 0 | Bosses: 4
+
+	(1) Lion Harp, Lion Boots, Leo Rex Battleax (chest)
+
+Path	Use right Bubble-Cannon -> Use left Bubble-Cannon
+
+	(2) --
+
+	(3) --
+
+Menu	upgrade Ryudo:		Sky Dragon Slash +5
+
+	skequip Tio: | Intel (Wiz) | Northwind (Gale) | Glacier (Prie) | Life Up (Prie) |
+
+	equip Mareg: +Leo Rex Battleax
+	equip Tio: +Holy Egg
+
+Path	Recover
+
+	(4) --
+
+Path	Skip Cutscene
+
+
+Boss #1	< 1x Egg Guardian (30.000 HP) > | 2.000 EXP | 10.000 SC | 10.000 MC | 3.600 G
+	< 4x Valmar Bits (4.800 HP) >
+
+	Relevant Drops: Angel's Robe
+	Dangerous Abilitys: Howlnado, Wailing Sickle
+
+	Mareg: Beast-King Smash at Egg Guardian.
+	Ryudo: Sky Dragon Slash to kill off Bits. Spam Super Mogay Bomb on Egg Guardian.
+	Tio: Crackling to kill off Bits. Crackle on Egg Guardian.
+
+
+	(5) --
+
+Menu	use Yomi's on Elena
+	use Grail Fruit on Tio
+	use Butter Rolls/Baobab Fruit on Mareg/Ryudo
+
+
+Boss #2	< 4x Valmar Fly (3.600 HP) > | 300 EXP | 1.500 SC | 0 MC | 375 G
+
+	Relevant Drops: Platinum Feather
+	Abilitys: --
+
+	Ryudo: Super Mogay Bomb at Center.
+	Tio: Crackling.
+	Elena/Mareg: Fair play.
+
+
+Boss #3	< 1x Valmar Young (7.200 HP) / 3x Valmar Fly (3.600 HP)> | 450 EXP | 1.500 SC | 0 MC | 675 G
+
+	Relevant Drops: Soul of Asura
+	Abilitys: --
+
+	Ryudo: Super Mogay Bomb at Center.
+	Tio: Crackling.
+	Mareg: Beast-King Smash at Valmar Young.
+	Elena: Fair play.
+
+
+Boss #4	< 2x Valmar Young (7.200 HP) > | 600 EXP | 1.500 SC | 0 MC | 425 G
+
+	Relevant Drops: Soul of Asura
+	Abilitys: --
+
+	Ryudo: Super Mogay Bomb at Center.
+	Tio: Crackling.
+	Mareg: Beast-King Smash at each Valmar Young.
+	Elena: Fair play.
+
+
+	[Cyrum South #1] Encounters: 0 | Bosses: 0
+
+	(1) Missanga
+
+Path	Skip Cutscene -> Leave Cyrum South
+
+
+	[Cyrum #3] Encounters: 0 | Bosses: 1
+
+Path	Cyrum Entrance -> Shop -> Menu -> Castle Gate (Roan)
+
+Shop	Gold required: 102.200 G
+
+	sell-ables:	Inferno Battleax (4900g) | Resist Dress (8900g) | Angel's Robe (9400g)
+			Holy Clothes (8600g) | Paladin Helmet (3500g)* | Goddess Hi-Heels (1000g)
+			Divine Talisman (3000g) | Relief Tag (2000g) | Rage Ring (600g)
+
+	buy Weapon:	1x Thor Sword (19000g)for Ryudo, 1x Demon Shuriken (19800g) for Tio
+	buy Armor:	1x Aura Armor (19800g) for Ryudo
+	buy Jewel:	1x Godspeed ring (2500g)
+	buy Item:	10x Potion of Azure (7500g)
+	buy Region:	10x Magical Medicine (3600g), 30x Silver Feather (15000g), 30x Serpentine (15000g)
+
+Menu	upgrade Ryudo:		Tenseiken Slash +5, Flying Senseiken +5
+	upgrade Elena:		Impact Bomb +5
+
+	upgrade Gravity Egg:	WOW! +5, Def-Loss +5, Freeze! +5, Fiora +5, Cold +5, Craze +5, 
+				Poizn +5, Snooze +5, Quake +5, Tremor +5, Boom! +5, Ba-Boom +5
+
+	upgrade Adv.Book:	Toughness +5
+	upgrade Wiz.Book:	Quakeblast Chant +5, Magic Recover +5
+	upgrade Prie.Book:	Mentality +5
+	upgrade Gale.Book:	Decoy +5
+	upgrade Sword.Book:	Abandonment +5, Move Recover +5
+
+	skequip Ryudo: | Strength (Adv) | Strength (Swo) | Special Power (Swo) | Speed (Warr) |
+	skequip Elena: | Item Use (Gale) | Item Use (Adv) | Item Recover (Warr) | Life Up (Warr) |
+
+	equip Ryudo: +Soul Egg, +Black Belt
+	equip Elena: +Godspeed ring, +Star Egg
+
+	use Scroll of Alheal/Healing Incense
+	use Grail Fruit/Magical Medicine on Roan/Tio
+	use Baobab Fruit on Ryudo
+	use Missanga
+
+
+Boss #1	< 2x Valmar Young (7.200 HP) > | 600 EXP | 1.500 SC | 0 MC | 850 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Ryudo: Sky Dragon Slash.
+	Tio: Crackling.
+	Elena: Super Mogay Bomb.
+	Roan: Fair play.
+
+
+	[Cyrum Castle #2] Encounters: 0 | Bosses: 1
+
+Path	Guest room -> King's Office (Roan) -> Leave Castle -> Cyrum Entrance ->
+	Skip Cutscene -> Leave Cyrum
+
+
+Boss #1	< 2x Valmar Young (7.200 HP) > | 600 EXP | 1.500 SC | 0 MC | 850 G
+
+	Relevant Drops: --
+	Abilitys: --
+
+	Ryudo: Sky Dragon Slash.
+	Tio: Crackling.
+	Elena: Super Mogay Bomb.
+	Roan: Fair play.
+
+
+	[Cyrum South #2] Encounters: 0 | Bosses: 0
+
+Path	Skip Cutscene -> Enter Mausoleum -> Roan's Medal Cutscene -> Enter Birthplace
+
+
+	[Birthplace of the Gods] Encounters: 0 | Bosses: 2
+
+	(1) --
+
+Path	Use Blue Orb -> Head for part 2
+
+Menu	upgrade Roan:		Golden Hammer +5
+
+	skequip Tio: | Intel (Wiz) | Boomflame (Wiz) | Quakeblast (Wiz) | Life Up (Prie) |
+	skequip Roan: | Magic Recover (Wiz) | Glacier (Prie) | Northwind (Gale) | Life Up (Adv) |
+
+	equip Tio: +Gravity Egg
+	equip Roan: +Holy Egg, +Godspeed ring
+	equip Ryudo: +King's Pride
+
+	(2) --
+
+	(3) --
+
+Path	Defeat Dual Fists -> Use Yellow Orb -> Head to part 2
+
+
+Boss #1	< 2x Dual Fist (20.000 HP) > | 900 EXP | 3.200 SC | 0 MC | 1.200 G
+
+	Relevant Drops: Elf King's Boots
+	Abilitys: Freeze Down, Blizzard Rise
+
+	Ryudo: Dragon King Slash.
+	Tio: Ba-Boom!
+	Elena: Serpentine. Baobab Fruits on Ryudo.
+	Roan: Serpentine. Baobab Fruits on Ryudo.
+
+
+	(2) --
+
+Path	Recover -> Defeat Guardians -> Use Red Orb -> Head for part 3
+
+
+Boss #2	< 2x Guardian (18.000 HP) > | 1.000 EXP | 0 SC | 4.000 MC | 1.600 G
+
+	Relevant Drops: Phoenix Ring
+	Abilitys: Spark Slice, Killer Voltage
+
+	Ryudo: Dragon King Slash.
+	Tio: Ba-Boom!
+	Elena: Serpentine. Baobab Fruits on Ryudo.
+	Roan: Serpentine. Baobab Fruits on Ryudo.
+
+
+	(3) --
+
+Path	Deactivate Yellow Orb -> Head for part 2
+
+	(2) --
+
+Path	Use elevator to part 3
+
+	(3) --
+
+Path	Elmo Chat -> 22 minutes Cutscene -> Ryudo's Inner World -> Pick 'No' for each platform
+
+
+	[Cyrum South #3] Encounters: 0 | Bosses: 0
+
+Path	Magical Teleportation Circle -> Skip Cutscene
+
+Shop	Not required. Buy Items if you lacked the Gold for them during Cyrum-Shop
+
+
+	[New Valmar] Encounters: 0 | Bosses: 4
+
+	(1) Scarlet Potion, Gold Feather, Loving Ribbon (chest)
+
+Path	Recover
+
+
+Boss #1	< 1x Valmar Magna (20.000 HP) / 2x Valmar Moth (3.200 HP) > | 800 EXP | 170 SC | 400 MC | 1.660 G
+
+	Relevant Drops: Brave Dirk
+	Abilitys: --
+
+	Ryudo: Flying Tenseiken on Magna.
+	Tio: Ba-Boom! to kill Moths, then Boom! on Magna.
+	Roan: Crackling to kill Moths, then Crackle on Magna.
+	Elena: Silver Feathers on Ryudo.
+
+
+	(2) Holy Sword Armor
+
+	(3) Meteor Scroll, Face Paint, Priestess Robe (chest) | 
+	Mystic Potion, Battle Manicure, Ogre Shoes (chest)
+
+Path	Recover
+
+
+Boss #2	< 2x Valmar Magna (20.000 HP) > | 1.200 EXP | 100 SC | 600 MC | 3.000 G
+
+	Relevant Drops: Brave Dirk
+	Dangerous Abilitys:
+
+	Ryudo: Sky Dragon Slash.
+	Elena: Serpentine, Silver Feathers on Ryudo.
+	Roan: Crackling.
+	Tio: Ba-Boom!
+
+
+Menu	skequip Ryudo: | Strength (Adv) | Strength (Swo) | Move Recover (Swo) | Speed (Warr) |
+	skequip Elena: | Decoy (Gale) | Mentality (Prie) | Toughness (Adv) | Life Up (Warr) |
+	skequip Tio: | Item Use (Gale) | Item Use (Adv) | Item Recover (Warr) | Life Up (Prie) |
+	skequip Roan: | Stormcloud (Gale) | Intel (Wiz) | Zapfire (Wiz) | Life Up (Adv) |
+
+	equip Ryudo: +Holy Sword Armor, +Black Band, +Ogre Shoes
+	equip Tio: +Ring of Guarding, +Lion Boots, +Priest's Hat
+	equip Roan: +Pixie's Robe, +Sister's Hat, +Mana Insignia, +Chaos Egg
+	equip Elena: +Dragon Scales, +Elf King's Boots, +Loving Ribbon, +Priestess' Robe
+
+	use Scroll of Alheal/Healing Incense
+	use Grail Fruit/Magical Medicine on Roan/Tio
+	use Baobab Fruit on Ryudo
+
+	(4) --
+
+
+Boss #3	< Core of Valmar (50.000 HP) > | No Rewards
+
+	Relevant Drops: --
+	Dangerous Abilitys: Day of Judgement, Destruction Light, Spellbinding Eye, Craze
+
+	Ryudo: Flying Tenseiken at Core.
+	Roan: DragonZap at Core.
+	Elena: Defend.
+	Tio: Keep up Ryudos SP and Roans MP. Serpentine as filler.
+
+Details	Positioning is Key. Use 5x Exhaustion Nut at the start. Cancel Day of Judgement if possible.
+
+
+Boss #4	< Millenia 2 (25.000 HP) > | 0 EXP | 3.000 SC | 0 MC | 0 Gold
+	Relevant Drops: Black Angel Bow
+	Dangerous Abilitys: Fallen Wings
+
+	Ryudo: Flying Tenseiken.
+	Roan: DragonZap.
+	Elena: Defend.
+	Tio: Silver Feathers on Ryudo. Serpentine as filler.
+
+
+	[Room of Chaos] Encounters: 0 | Bosses: 4
+
+Path	Menu -> Recover -> Tongue -> Menu -> Eye -> Menu -> Heart -> Menu -> Zera Valmar
+
+Menu	upgrade Millenia:	Arrow Shot +5, Spellbinding Eye +5
+
+	skequip Ryudo: | Strength (Adv) | Strength (Sword) | Move Recover (Sword) | Special Power (Swo) |
+	skequip Elena: | Item Use (Gale) | Speed (Warr) | Item Recover (Warr) | Item Use (Adv) |
+	skequip Millenia: | Decoy (Gale) | Life Up (Prie) | Life Up (Warr) | Life Up (Adv) |
+
+	equip Ryudo: +Man's Headband, +Man's Iron Clogs
+	equip Elena: +Lion Boots, +Godspeed ring
+	equip Millenia: +Holy Egg, +Dragon Scales, +Elf King's Boots, +Priest's Hat, +Ancient Suit, +BAB
+
+Path	Recover
+
+
+Boss #1	< Tongue of Valmar II (30.000 HP) > | 3.000 EXP | 4.000 SC | 1.000 MC | 0 G
+	< Right Hand (20.000 HP) > | < Left Hand (20.000 HP) > | < Head (9.000 HP) >
+
+	Relevant Drops: --
+	Dangerous Abilitys: Gluttony, Eat 'em Alive
+
+	Ryudo: Flying Tenseiken on Tongue.
+	Elena: Battle Manicure on Ryudo, then Silver Feathers on Ryudo.
+	Millenia: Spellbinding Eye on Tongue, then Serpentine.
+
+
+Menu	use Healing Incense
+	use Baobab Fruit on Ryudo/Millenia
+
+
+Boss #2	< Eye of Valmar II (20.000 HP) / 4x Eyeball Bat (20.000 HP) > | 3.000 EXP | 4.000 SC | 1.000 MC | 0 G
+	< Left Tendril (20.000 HP) > | < Right Tendril (20.000 HP) >
+
+	Relevant Drops: Queen Heels
+	Dangerous Abilitys: Pollen Spew, Spellbinding Eye, Delta Burst
+
+	Ryudo: Flying Tenseiken on Eye.
+	Elena: Silver Feathers on Ryudo.
+	Millenia: Defend.
+
+
+Menu	use Healing Incense
+	use Baobab Fruit on Ryudo/Millenia
+
+
+Boss #3	< Heart of Valmar II (25.000 HP) > | 3.000 EXP | 4.000 SC | 1.000 MC | 0 G
+	< Left Eye (15.000 HP) > | < Right Eye (15.000 HP) >
+
+	Relevant Drops: --
+	Dangerous Abilitys: Avici Slash, Aorta Pummel
+
+	Ryudo: Flying Tenseiken on Heart.
+	Elena: Silver Feathers on Ryudo.
+	Millenia: Spellbinding Eye on Heart.
+
+
+Menu	use Healing Incense
+	use Baobab Fruit on Ryudo/Millenia
+
+	equip Millenia: +Godspeed ring, +Queen Heels
+
+
+Boss #4	< Zera Valmar (40.000 HP) > | No Reward
+
+	Relevant Drops: --
+	Dangerous Abilitys: Ba-Boom!
+
+	Ryudo: Flying Tenseiken on Zera.
+	Elena: Battle Manicure + Face Paint on Ryudo, then Silver Feathers on Ryudo.
+	Millenia: Spellbinding Eye on Zera.
+
+
+	GG

@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"carbos village? 4 in carbos | 2 in the black forest 1 5 in AGEAR Town"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C4C78</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"Main Map = 13 East Silesia Map = 11"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C54D8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Just a marker for ones underneath I am not sure about"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C4AFC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C7F60</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C7EF0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C7E10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"Pause Menu = 32, Non Pause in city = 128 Battle = 32, loading battle = 0"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+61EE1C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+61EE6C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"Carbos"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>4</ID>
+          <Description>"Carbos Village 308 H1(8352) H2(8368) H3(8384) H4(8400)  Inn (8208) Church (8240 Store(  8224 ) 8193 - Millenia Cutscene"</Description>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>5</ID>
+          <Description>"Carbos = 308 | H1(17) H2(14) H3(16) H4(14)  Inn (8208) Church (171) Store 19  Millenia Cutscene (440) 204 Inn Cutscene after Millenia"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>6</ID>
+              <Description>"329216 when door open with text 1536 when not 7936 after cutscene"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>grandia2.exe+2C53FC</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>9</ID>
+              <Description>"No description"</Description>
+              <Color>008080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>grandia2.exe+2C7E80</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>12</ID>
+              <Description>"No description"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>grandia2.exe+61EAC4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>11</ID>
+              <Description>"No description"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>grandia2.exe+61DEE4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>13</ID>
+              <Description>"No description"</Description>
+              <Color>FF0000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>grandia2.exe+61EB48</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>14</ID>
+              <Description>"No description"</Description>
+              <Color>FF0000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>grandia2.exe+61EB4C</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>155</ID>
+      <Description>"Witt Forest"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>156</ID>
+          <Description>"Forest Path: 4294955056"</Description>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>157</ID>
+          <Description>"Opening Cutscene 433, Forest Path: 88"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>158</ID>
+              <Description>"Cuscene: 256"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>grandia2.exe+2C53FC</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>159</ID>
+              <Description>"No description"</Description>
+              <Color>008080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>grandia2.exe+2C7E80</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>160</ID>
+              <Description>"No description"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>grandia2.exe+61EAC4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>161</ID>
+              <Description>"No description"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>grandia2.exe+61DEE4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>162</ID>
+              <Description>"No description"</Description>
+              <Color>FF0000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>grandia2.exe+61EB48</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>163</ID>
+              <Description>"No description"</Description>
+              <Color>FF0000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>grandia2.exe+61EB4C</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"Black Forest 1"</Description>
+      <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>21</ID>
+          <Description>"battle loading = 1, in battle = 128, win battle = 129, no battle = 2"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C35B4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"lvl 1: 9216 lvl 2=9232"</Description>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>24</ID>
+          <Description>"lvl1 17936 | lvl2 8448   when text appears 336126"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>22</ID>
+          <Description>"No description"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C35C4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19</ID>
+          <Description>"Level 1 = 92 Level 2 = 24"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"Garmia Tower"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>26</ID>
+          <Description>"battle loading = 1, in battle = 128, win battle = 129, no battle = 2"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C35B4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>27</ID>
+          <Description>"opening cutscene 10752 (?) outside:: 10241 1st floor 10257, 2nd Floor: 10273, 3rd Floor: 10289 Top FloorL 10481"</Description>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>28</ID>
+          <Description>"outside:15360 | after cutscene 8448 1st Floor: 256, 2nd Floor: 16128, 3rd Floor: 8704  Top Floor 7936 when text appears 336126 512/256 cutscene 1/2"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"outside:297 1st floor: 32, 2nd Floor: 11, 3rd Floor: 11 Top Floor = 223 186 Tower Cutscene In Purple"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>37</ID>
+      <Description>"Experience/Level Indicators?"</Description>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>30</ID>
+          <Description>"No description"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B2088</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>31</ID>
+          <Description>"No description"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B20A4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>32</ID>
+          <Description>"No description"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C35C4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>33</ID>
+          <Description>"No description"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C35C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>34</ID>
+          <Description>"No description"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C35CC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>35</ID>
+          <Description>"No description"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2CABCC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>43</ID>
+          <Description>"Ryudo EXP Points?"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+61C37C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>44</ID>
+          <Description>"Elena EXP points"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+61C5D0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>55</ID>
+          <Description>"Roan Total EXP"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+61C824</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>45</ID>
+      <Description>"Ryudo Next Level [not sure ]"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+620B00</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+61C37C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>38</ID>
+      <Description>"Inor Mountains 2"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>39</ID>
+          <Description>"lvl1: 11264 lvl2: 11280"</Description>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>40</ID>
+          <Description>"lvl1: 16128 lvl2:7936 cutscene 256 (skye) 512 - sleep"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>41</ID>
+          <Description>"lvl 1: 140 lvl: 319"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>47</ID>
+      <Description>"65535 When Loading Game - maybe a reset"</Description>
+      <Color>80FF00</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2B59B8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>46</ID>
+      <Description>"AGEAR TOWN"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>49</ID>
+          <Description>"overworld:[240] inn:[289] inn corrdior [47] Room 1[219] Room 2[16] guards tent:[23]"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>48</ID>
+          <Description>"overworld:[7936] inn:[16128] inn corridor [7936] Room 1[16128] Room 2[16128] guards tent:[16128] Top Text 335616 cutscene(roan) [768] 256 2nd cutscene"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>42</ID>
+          <Description>"overworld:[983] inn:[983] guards tent:[983]"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C35C4</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>50</ID>
+      <Description>"DURHAM CAVE"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>51</ID>
+          <Description>"lvl1: 13312 lvl2: 13328 Depths: 13552"</Description>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>52</ID>
+          <Description>"lvl1: 7680 lvl2: 8960 Depths: 7936"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>53</ID>
+          <Description>"lvl 1: 262 lvl 2: 314 Depths: 162"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>54</ID>
+      <Description>"Special Coins?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C35C8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>56</ID>
+      <Description>"Gold Coins?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>grandia2.exe+2C35C4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>85</ID>
+      <Description>"Enemy Health"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>8 Bytes</VariableType>
+      <Address>grandia2.exe+61CF28</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>86</ID>
+      <Description>"Enemy Health 2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>8 Bytes</VariableType>
+      <Address>grandia2.exe+61D17C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>87</ID>
+      <Description>"Enemy Health 3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>8 Bytes</VariableType>
+      <Address>grandia2.exe+61D3D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>88</ID>
+      <Description>"Enemy Health 4 / Boss Health (stored as enemy health 1 on vscode)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>8 Bytes</VariableType>
+      <Address>grandia2.exe+61CCD4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>95</ID>
+      <Description>"Enemy Health 5"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>8 Bytes</VariableType>
+      <Address>grandia2.exe+61D624</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>102</ID>
+      <Description>"Enemy Health 6"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>8 Bytes</VariableType>
+      <Address>grandia2.exe+61D878</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>57</ID>
+      <Description>"Unsure what these are but feel maybe useful"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C35C4</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>58</ID>
+          <Description>"No description"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>grandia2.exe+7108E0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>60</ID>
+          <Description>"No description"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>grandia2.exe+70FE3C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>59</ID>
+          <Description>"No description"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+70FE3C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>61</ID>
+          <Description>"No description"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+70F798</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>62</ID>
+          <Description>"No description"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>grandia2.exe+6216E0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>63</ID>
+          <Description>"No description"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>grandia2.exe+61AA01</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>65</ID>
+      <Description>"Baked Plains"</Description>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>66</ID>
+      <Description>"lvl1: 14336 lvl2: 14352 lvl3: 14368 cutscene "stop it" [57360]"</Description>
+      <Color>80FF00</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2B59B8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>67</ID>
+      <Description>"lvl1: 8448 lvl2: 16128 lvl: 2048 cutscene: 1280 then 1536, 256 dialogue, 1024 after MAREG"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C53FC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>68</ID>
+      <Description>"lvl1:88 lvl2: 102 lvl3: 304"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <Color>FF00FF</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C54D8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>64</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C4710</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>84</ID>
+      <Description>"Enemy Health"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>69</ID>
+          <Description>"Enemy Health"</Description>
+          <VariableType>2 Bytes</VariableType>
+          <Address>grandia2.exe+61CF28</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>70</ID>
+          <Description>"Enemy Health"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+61CF28</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>71</ID>
+          <Description>"Enemy Health"</Description>
+          <VariableType>8 Bytes</VariableType>
+          <Address>grandia2.exe+61CF28</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>72</ID>
+          <Description>"Enemy Health 2"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>grandia2.exe+61D17C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>73</ID>
+          <Description>"Enemy Health 2"</Description>
+          <VariableType>2 Bytes</VariableType>
+          <Address>grandia2.exe+61D17C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>74</ID>
+          <Description>"Enemy Health 2"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+61D17C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>75</ID>
+          <Description>"Enemy Health 2"</Description>
+          <VariableType>8 Bytes</VariableType>
+          <Address>grandia2.exe+61D17C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>76</ID>
+          <Description>"Enemy Health 3"</Description>
+          <VariableType>8 Bytes</VariableType>
+          <Address>grandia2.exe+61D3D0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>77</ID>
+          <Description>"Enemy Health 3"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+61D3D0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>78</ID>
+          <Description>"Enemy Health 3"</Description>
+          <VariableType>2 Bytes</VariableType>
+          <Address>grandia2.exe+61D3D0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>79</ID>
+          <Description>"Enemy Health 3"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>grandia2.exe+61D3D0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>80</ID>
+          <Description>"Enemy Health 4"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>grandia2.exe+61CCD4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>81</ID>
+          <Description>"Enemy Health 4"</Description>
+          <VariableType>2 Bytes</VariableType>
+          <Address>grandia2.exe+61CCD4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>82</ID>
+          <Description>"Enemy Health 4"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+61CCD4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>83</ID>
+          <Description>"Enemy Health 4"</Description>
+          <VariableType>8 Bytes</VariableType>
+          <Address>grandia2.exe+61CCD4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>92</ID>
+          <Description>"Enemy Health 5"</Description>
+          <VariableType>2 Bytes</VariableType>
+          <Address>grandia2.exe+61D624</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>93</ID>
+          <Description>"Enemy Health 5"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+61D624</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>94</ID>
+          <Description>"Enemy Health 5"</Description>
+          <VariableType>8 Bytes</VariableType>
+          <Address>grandia2.exe+61D624</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>99</ID>
+          <Description>"Enemy Health 6"</Description>
+          <VariableType>2 Bytes</VariableType>
+          <Address>grandia2.exe+61D878</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>100</ID>
+          <Description>"Enemy Health 6"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+61D878</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>101</ID>
+          <Description>"Enemy Health 6"</Description>
+          <VariableType>8 Bytes</VariableType>
+          <Address>grandia2.exe+61D878</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>89</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>grandia2.exe+2C35CC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>90</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C35CC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>103</ID>
+      <Description>"Mareg (BOss) Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>grandia2.exe+61CCD4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>104</ID>
+      <Description>"Mareg (Boss) Health"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+61CCD4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>105</ID>
+      <Description>"LIILIGUE CITY"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>106</ID>
+          <Description>"Liligue: 15360  Gen Store: 15392 Inn: 15376 Engineers House: 15408 H1 15520:, H2 15536:, H3: 15552 ,H4:15568, Skyway Station:15364 Church (dstair) 15488 (upstair):15492, Gadans House: 15424"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>107</ID>
+          <Description>"Liligue: 423 Gen Store: 11 Inn:119, Engineers House: 107, H1 29:, H2 27:, H3 18: ,H4:18, Skyway Station: 153 Church (dstair) 112 (Upstair): 107, Gadans House: 105"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>110</ID>
+          <Description>"Liligue: 24064 Gen Store, Inn: 16128, Inn dialogue : 256, party dialgue: 7680 cutscene with boy 512 Engineers House: 7936 Skyway Station + All houses:16128, Church (dstair) 7936"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>109</ID>
+          <Description>"Liligue: 37 Skyway Station 3 In Any Building: 36"</Description>
+          <Color>008080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C7E80</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>108</ID>
+      <Description>"329216 when door open with text 1536 when not 7936 after cutscene"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C53FC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>111</ID>
+      <Description>"LILIGUE CAVE"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>112</ID>
+          <Description>"LVL1: 16384 lvl2: 16384 lvl3: 16432 caverns: 16416 temple ruins: 16624 granacliff cutscene: 15364 then 15888"</Description>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>113</ID>
+          <Description>"lVL1: 8704 lvl2: 9984 lvl3: 16128 caverns: 7936 temple ruins: 16128 granacliff cutscene 7936 then 512 then 768 (voice acted part)"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>114</ID>
+          <Description>"Lvl1: 174 lvl2: 174 lvl3: 13 caverns: 242 temple ruins: 313 granacliffe cutscene 153, then 127"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>115</ID>
+      <Description>"Mareg Total Exp"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>grandia2.exe+61CA78</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>116</ID>
+      <Description>"Mareg Total Exp"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+61CA78</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>117</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C35C4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>119</ID>
+      <Description>"Lumir Forest"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>120</ID>
+          <Description>"Lumir Forest Crash Site + Millenia/Elena Cutscene: 17408  Lumir Forest: 17424 Cavern 1: 17440 Cavern2: 17456 Garden of Dreams: 18432"</Description>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>121</ID>
+          <Description>"Lumir Forest Crash Site + Millenia/Elena Cutscene: 256  Lumir Forest:8960 Cavern 1: 33684 Cavern 2: 8960 Garden of Dreams: 256"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>122</ID>
+          <Description>"Lumir Forest Crash Site +  Millenia/Elena Cutscene: 175  Lumir Forest:143 Cavern1: 76 Cavern2:137 Garden of Dreams: 438"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>118</ID>
+      <Description>"Special Coins"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>grandia2.exe+707262</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>123</ID>
+      <Description>"Mirumu Village"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>124</ID>
+          <Description>"Overworld: 19456, Chief's House: 19520, House 1: 19616, House 2: 19632, House 3: 19648, Town Hall:19504,  Mirumu Inn: , Mirimu Inn: 19472, Managers Room: 19480, Guestroom, 19476 Gen. Store: 19488 Sandra House: 19536 Ryudo Dream: 20544"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>125</ID>
+          <Description>"Overworld: 1005, Chiefs House: 68 House 1: 36, House 2:37, House 3:40, TOwn Hall: 62 Mirumu Inn: , Mirimu Inn: 243, Managers Room: 129, Guest Room: 78, Gen Store: 33 Sandra House: 228, Ryudo Dream: 142"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>126</ID>
+          <Description>"Overworld: 7936, Chiefs House: 256, House 1,2,3, Inn, Guestroom - Inn.  TOwn Hall: 16128 Mirumu Inn,, Managers Room: 512, Gen Store: 16128 Aira Cutscene: 1280  Cutscene 768"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127</ID>
+      <Description>"Liligue: 37 Skyway Station 3 In Any Building: 0"</Description>
+      <Color>008080</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C7E80</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>128</ID>
+      <Description>"Mysterious Fissure"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>129</ID>
+          <Description>"Underground: 20480 Depths: 20496 Shed: 19552"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>130</ID>
+          <Description>"Underground: 9, Depths: 232, Shed: 48"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>131</ID>
+          <Description>"Underground: 16128 Depths: 1024 Shed: 256"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>132</ID>
+      <Description>"Aira's Space"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>133</ID>
+          <Description>"Lvl1: 20512 lvl2: 20528 Boss Lair: 20720"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>134</ID>
+          <Description>"Lvl1: 88 lvl2: 100 Boss Lair: 102"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>135</ID>
+          <Description>"Lvl1: 8960 lvl2: 9472 Boss Lair: 256"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>136</ID>
+      <Description>"St. Heim Mountains"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>137</ID>
+          <Description>"Base: 21504, Caverns: 21536, Waterfall: 21552, Halfway Up:  21520"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>138</ID>
+          <Description>"Base: 62, Caverns: 111, Waterfall: 22, , Halfway Up: 204"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>139</ID>
+          <Description>"Base: 16128, Caverns: 512, Campaign: 512, Waterfall: 16128, Halfway Up: 512"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>140</ID>
+      <Description>"Enemy Health 7"</Description>
+      <VariableType>8 Bytes</VariableType>
+      <Address>grandia2.exe+61CCD4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>151</ID>
+      <Description>"St. Heim Papal State"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>152</ID>
+          <Description>"Overworld: 22528, Gen. Store: 22560, Inn:22544, Bakery: 22592, H1 (Downstairs), 22688, H1(Upstairs): 22692 , H2:22688 H322688: H4: 22736, Library: 22576, Cathedral: 22688 Zera Cutscene: 22688 , Guestroom Corridor: 22688 [everything in categdral = 22688]"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>153</ID>
+          <Description>"Overworld: 256, Gen. Store: 17, Inn:266, BakeryL 26, H1 (Downstairs) 3, H1(Upstairs): 5, H217: H3:14 H4: 36, Library: 25, Cathedral: 462, Zera Cutscene: 81, Catedral Lobbry: 65, Cathedrial Balcony: 67, GUestroom Corridor: 12, Guestroom: 71,Cathedral Library: 31, Zera Cutscene in Cathedral - 296, Pope's Room Corridor: 38, Pope's Room: 40"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>154</ID>
+          <Description>"Overworld: 16128, Cathedral:7680, Zera Cutscene: 256, Balcony: 15616 Cutscene: 512, Pope's Room COrridor: 24064"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>141</ID>
+      <Description>"Enemy Health 7"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+61CCD4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>164</ID>
+      <Description>"Raul Hills"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>165</ID>
+          <Description>"Pilgrim Road: 21568. RH1: 24576 RH2:24592 RH3:"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>166</ID>
+          <Description>"Pilgrim Road:20 . RH1:64 RH2:391 RH3:"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>167</ID>
+          <Description>"Pilgrim Road:16128. RH1:9216 RH2:16128 RH3:"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>142</ID>
+      <Description>"Enemy Health 7"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>grandia2.exe+61CCD4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>168</ID>
+      <Description>"Cyrum Kingdon"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>169</ID>
+          <Description>"Cyrum Kingdom: 25600, Store: 25631, H1Up:25764 , H1Dn:25760 ., H2Up25780: , H2Dn:25776 ., H3: 5792, H4:25808 Port: 25608, Inn-D'stairs: 25616, Inn-Corridor: 25628, Inn-u'stair: 25620"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>80FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2B59B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>170</ID>
+          <Description>"Cyrum Kingdom: 569, Store: 15, H1Up:7 , H1Dn14: ., H2Up7: , H2Dn:14 ., H3: 10: ., H4:11, Port: 106, Inn-D'stairs: 187, Inn Corridor: 12, Inn Upstair: 200"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C54D8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>171</ID>
+          <Description>"Cyrum Kingdom: 256, Store &amp; all houses: 16128,, Port 7936 - cutscene -256, 512 - eating"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>grandia2.exe+2C53FC</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>143</ID>
+      <Description>"Enemy Health 8?"</Description>
+      <VariableType>8 Bytes</VariableType>
+      <Address>grandia2.exe+61D17C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>144</ID>
+      <Description>"Enemy Health 8?"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+61D17C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>145</ID>
+      <Description>"Enemy Health 8?"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>grandia2.exe+61D17C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>146</ID>
+      <Description>"Enemy Health 8?"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>grandia2.exe+61D17C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>150</ID>
+      <Description>"Enemy Health 8"</Description>
+      <VariableType>8 Bytes</VariableType>
+      <Address>grandia2.exe+61D17C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>172</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>1D1C4D6E</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>173</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>grandia2.exe+61C37C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>174</ID>
+      <Description>"Rydo Exp"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+61C37C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>175</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>grandia2.exe+2C35CC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>176</ID>
+      <Description>"Magic Coins"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+2C35CC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>177</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>grandia2.exe+61C384</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>178</ID>
+      <Description>"Ryudo HP"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>grandia2.exe+61C384</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>179</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>3A6B0908</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>180</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>3A6B0908</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>181</ID>
+      <Description>"pointerscan result (special coin)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"grandia2.exe"+002C48E4</Address>
+      <Offsets>
+        <Offset>8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>182</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>3A6B0908</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>183</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>3A6B0908</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
