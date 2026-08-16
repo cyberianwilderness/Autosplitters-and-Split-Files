@@ -20,17 +20,6 @@ init
     // cached once we've discovered ComicFrontend's raw FName value - avoids repeated string decoding
     vars.ComicFrontendFName = null;
 
-    // classification caches for detecting "actually in a level" vs hub/menu/cutscene
-    vars.NonPuzzleFNames = new HashSet<long>(); // hub + cutscene sublevel names, once identified
-    vars.PuzzleFNames = new HashSet<long>();    // any other sublevel name, once identified as real puzzle content
-    vars.CutsceneFNames = new HashSet<long>();  // puzzle-content sublevels that are themselves a cutscene (e.g. "LaunchOrders_cutscenes")
-
-    // live run-scoped IGT accumulator
-    vars.CompletedLevelsTime = 0.0;
-    vars.LevelStartBaseline = null;
-    vars.NeedsBaselineCapture = false;
-    vars.StatManagerAddress = null;
-
     var cachedFNames = new Dictionary<long, string>();
     vars.ReadFName = (Func<long, string>)(fname =>
     {
@@ -70,8 +59,6 @@ update
         int levelsCount = vars.Helper.Read<int>(world + 0x140);
 
         bool foundComicFrontend = false;
-        bool foundPuzzleContent = false;
-        bool foundLevelCutscene = false;
 
         if (levelsData != IntPtr.Zero && levelsCount > 0 && levelsCount < 64) // sanity clamp against a bad read
         {
@@ -91,6 +78,7 @@ update
                     if (outerFName == (long) vars.ComicFrontendFName)
                     {
                         foundComicFrontend = true;
+                        break;
                     }
                 }
                 else
@@ -101,44 +89,11 @@ update
                     {
                         vars.ComicFrontendFName = outerFName;
                         foundComicFrontend = true;
+                        break;
                     }
-                }
-
-                // classify this sublevel: known hub/cutscene name, or real puzzle content?
-                if (!vars.NonPuzzleFNames.Contains(outerFName) && !vars.PuzzleFNames.Contains(outerFName))
-                {
-                    string classifyName = vars.ReadFName(outerFName);
-                    bool isKnownNonPuzzle = classifyName == "StrmMaster_Adventure"
-                        || classifyName == "AlienOverworld_LightingScenario"
-                        || classifyName == "AlienOverworld_DioramaArt"
-                        || classifyName == "AlienOverworld_Main"
-                        || classifyName == "ComicFrontend"
-                        || classifyName == "AlienOverworld_ending_cutscene"
-                        || classifyName == "AlienOverworld_FinalCutsceneEnvironment";
-
-                    if (isKnownNonPuzzle)
-                    {
-                        vars.NonPuzzleFNames.Add(outerFName);
-                    }
-                    else
-                    {
-                        vars.PuzzleFNames.Add(outerFName);
-                        if (classifyName != null && classifyName.ToLower().Contains("cutscene"))
-                            vars.CutsceneFNames.Add(outerFName);
-                    }
-                }
-
-                if (vars.PuzzleFNames.Contains(outerFName))
-                {
-                    foundPuzzleContent = true;
-                    if (vars.CutsceneFNames.Contains(outerFName))
-                        foundLevelCutscene = true;
                 }
             }
         }
-
-        current.inLevel = foundPuzzleContent;
-        current.levelCutscenePlaying = foundLevelCutscene;
 
         current.puzzleEnding = foundComicFrontend;
 
@@ -149,72 +104,9 @@ update
         }
 
         if (old.puzzleEnding != current.puzzleEnding)
-        {
             vars.Log("puzzleEnding: " + old.puzzleEnding + " -> " + current.puzzleEnding);
 
-            if (!old.puzzleEnding && current.puzzleEnding)
-            {
-                // level just ended: lock in its contribution using the last known live delta
-                if (((IDictionary<string, object>) old).ContainsKey("liveLevelDelta"))
-                {
-                    vars.CompletedLevelsTime += (double) old.liveLevelDelta;
-                    vars.Log("Locked in level time: " + old.liveLevelDelta + " (completed total: " + vars.CompletedLevelsTime + ")");
-                }
-            }
-            else if (old.puzzleEnding && !current.puzzleEnding)
-            {
-                // entering a new level: flag that we need a fresh baseline as soon as data's available
-                vars.NeedsBaselineCapture = true;
-            }
-        }
-
         // --- Level stats: GWorld -> AuthorityGameMode -> StatManager -> CurrentlyPlayingLevelSummary ---
-        // --- StatManager: found once via PersistentLevel's Actors array, then cached permanently ---
-        if (vars.StatManagerAddress == null)
-        {
-            IntPtr persistentLevel = vars.Helper.Read<IntPtr>(world + 0x30); // UWorld::PersistentLevel
-            current.persistentLevelDebug = persistentLevel.ToString("X");
-            if (!((IDictionary<string, object>) old).ContainsKey("persistentLevelDebug"))
-                vars.Log("DEBUG persistentLevel: 0x" + current.persistentLevelDebug);
-            else if (old.persistentLevelDebug != current.persistentLevelDebug)
-                vars.Log("DEBUG persistentLevel: 0x" + current.persistentLevelDebug);
-
-            if (persistentLevel != IntPtr.Zero)
-            {
-                IntPtr actorsData = vars.Helper.Read<IntPtr>(persistentLevel + 0x90); // ULevel::Actors data
-                int actorsCount = vars.Helper.Read<int>(persistentLevel + 0x98);       // ULevel::Actors count
-
-                current.actorsDataDebug = actorsData.ToString("X");
-                current.actorsCountDebug = actorsCount;
-                if (!((IDictionary<string, object>) old).ContainsKey("actorsDataDebug"))
-                    vars.Log("DEBUG actorsData: 0x" + current.actorsDataDebug + " | actorsCount: " + current.actorsCountDebug);
-                else if (old.actorsDataDebug != current.actorsDataDebug || old.actorsCountDebug != current.actorsCountDebug)
-                    vars.Log("DEBUG actorsData: 0x" + current.actorsDataDebug + " | actorsCount: " + current.actorsCountDebug);
-
-                if (actorsData != IntPtr.Zero && actorsCount > 0 && actorsCount < 10000) // sanity clamp
-                {
-                    for (int i = 0; i < actorsCount; i++)
-                    {
-                        IntPtr actor = vars.Helper.Read<IntPtr>(actorsData + i * 0x8);
-                        if (actor == IntPtr.Zero) continue;
-
-                        IntPtr actorClass = vars.Helper.Read<IntPtr>(actor + 0x10); // UOBJECT_CLASS
-                        if (actorClass == IntPtr.Zero) continue;
-
-                        long actorClassFName = vars.Helper.Read<long>(actorClass + 0x18);
-                        string actorClassName = vars.ReadFName(actorClassFName);
-
-                        if (actorClassName == "StatManager_BP_C")
-                        {
-                            vars.StatManagerAddress = actor;
-                            vars.Log("Found StatManager at 0x" + actor.ToString("X") + " (actor " + i + " of " + actorsCount + ")");
-                            break;
-                        }
-                    }
-                }
-            }
-        }
-
         IntPtr gameMode = vars.Helper.Read<IntPtr>(world + 0x118); // UWorld::AuthorityGameMode
         IntPtr gameState = vars.Helper.Read<IntPtr>(world + 0x120); // UWorld::GameState
 
@@ -242,23 +134,12 @@ update
             vars.Log("DEBUG gameMode: 0x" + current.gameModeDebug + " (class: " + current.gameModeClassName + ") | gameState: 0x" + current.gameStateDebug);
         }
 
-        if (vars.StatManagerAddress != null)
+        if (gameMode != IntPtr.Zero)
         {
-            IntPtr statManager = (IntPtr) vars.StatManagerAddress;
-            IntPtr levelSummary = vars.Helper.Read<IntPtr>(statManager + 0x248);
-
-            current.statManagerDebug = statManager.ToString("X");
-            current.levelSummaryDebug = levelSummary.ToString("X");
-            if (!((IDictionary<string, object>) old).ContainsKey("statManagerDebug"))
+            IntPtr statManager = vars.Helper.Read<IntPtr>(gameMode + 0x2E8);
+            if (statManager != IntPtr.Zero)
             {
-                vars.Log("DEBUG statManager: 0x" + current.statManagerDebug + " | levelSummary: 0x" + current.levelSummaryDebug);
-            }
-            else if (old.statManagerDebug != current.statManagerDebug || old.levelSummaryDebug != current.levelSummaryDebug)
-            {
-                vars.Log("DEBUG statManager: 0x" + current.statManagerDebug + " | levelSummary: 0x" + current.levelSummaryDebug);
-            }
-
-            {
+                IntPtr levelSummary = vars.Helper.Read<IntPtr>(statManager + 0x248);
                 if (levelSummary != IntPtr.Zero)
                 {
                     current.playState = vars.Helper.Read<byte>(levelSummary + 0x28);
@@ -266,16 +147,6 @@ update
                     current.adventureLevelPlayTime = vars.Helper.Read<float>(levelSummary + 0x30);
                     current.timeTrialBestTime = vars.Helper.Read<float>(levelSummary + 0x38);
                     current.cogsCollected = vars.Helper.Read<int>(levelSummary + 0x3C);
-
-                    if (vars.NeedsBaselineCapture)
-                    {
-                        vars.LevelStartBaseline = (double) current.adventureLevelPlayTime;
-                        vars.NeedsBaselineCapture = false;
-                        vars.Log("Baseline captured: " + vars.LevelStartBaseline);
-                    }
-
-                    if (vars.LevelStartBaseline != null)
-                        current.liveLevelDelta = (double) current.adventureLevelPlayTime - (double) vars.LevelStartBaseline;
 
                     if (!((IDictionary<string, object>) old).ContainsKey("timesDied"))
                     {
@@ -322,7 +193,14 @@ update
         return;
     }
 }
+gameTime
+{
+    var currentDict = (IDictionary<string, object>) current;
+    if (!currentDict.ContainsKey("totalGamePlayTime"))
+        return null;
 
+    return TimeSpan.FromSeconds((double) current.totalGamePlayTime);
+}
 start
 {
     var oldDict = (IDictionary<string, object>) old;
@@ -337,13 +215,4 @@ split
     if (!oldDict.ContainsKey("puzzleEnding")) return false;
 
     return !old.puzzleEnding && current.puzzleEnding;
-}
-
-isLoading
-{
-    var currentDict = (IDictionary<string, object>) current;
-    if (!currentDict.ContainsKey("inLevel"))
-        return true; // no data yet - treat as loading rather than risk a bad read
-
-    return current.puzzleEnding || !current.inLevel || current.levelCutscenePlaying;
 }
