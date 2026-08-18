@@ -1,8 +1,8 @@
 # Oddworld Adventures 1
-- [\] Splits at the end of each section
-- [\] For simplicity, there is one split for all 6 trails - due to there being unreliable values and the players selecting them in any order (and they are very short)
-- [\] Splits after Abe says hello to Big Face at the end.
-- [\] This splitter only functions for Gambatte Emulator
+- [x] Splits at the end of each section
+- [x] For simplicity, there is one split for all 6 trails - due to there being unreliable values and the players selecting them in any order (and they are very short)
+- [x] Splits after Abe says hello to Big Face at the end.
+- [x] This splitter only functions for Gambatte Emulator
 
 ## Split Information
 - Splits are as follows *(it's hard to find lore on what these areas should be called because there is no info about this)*. 
