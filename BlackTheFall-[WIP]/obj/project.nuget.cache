@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "pXmQG+DR09M=",
+  "success": true,
+  "projectFilePath": "C:\\Scripts\\Autosplitters-and-Split-Files\\BlackTheFall\\BlackTheFallAutosplitterMod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ewant\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\ewant\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net35\\1.0.3\\microsoft.netframework.referenceassemblies.net35.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
