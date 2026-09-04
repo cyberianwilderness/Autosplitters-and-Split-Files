@@ -15,7 +15,7 @@
     <CustomVariables />
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>16</AttemptCount>
+  <AttemptCount>20</AttemptCount>
   <AttemptHistory>
     <Attempt id="1" started="01/31/2017 00:39:12" isStartedSynced="True" ended="01/31/2017 00:41:25" isEndedSynced="True" />
     <Attempt id="2" started="01/31/2017 00:41:26" isStartedSynced="True" ended="01/31/2017 00:41:45" isEndedSynced="True" />
@@ -467,6 +467,10 @@
     <Attempt id="398" started="09/03/2026 18:12:02" isStartedSynced="True" ended="09/03/2026 18:19:44" isEndedSynced="True" />
     <Attempt id="399" started="09/03/2026 18:19:55" isStartedSynced="True" ended="09/03/2026 18:24:40" isEndedSynced="True" />
     <Attempt id="400" started="09/03/2026 18:37:21" isStartedSynced="True" ended="09/03/2026 19:09:30" isEndedSynced="True" />
+    <Attempt id="401" started="09/04/2026 08:19:28" isStartedSynced="True" ended="09/04/2026 08:21:05" isEndedSynced="True" />
+    <Attempt id="402" started="09/04/2026 08:21:21" isStartedSynced="True" ended="09/04/2026 08:22:19" isEndedSynced="True" />
+    <Attempt id="403" started="09/04/2026 08:28:12" isStartedSynced="True" ended="09/04/2026 08:32:57" isEndedSynced="True" />
+    <Attempt id="404" started="09/04/2026 08:33:30" isStartedSynced="True" ended="09/04/2026 08:33:47" isEndedSynced="True" />
   </AttemptHistory>
   <Segments>
     <Segment>
@@ -475,7 +479,10 @@
       <SplitTimes>
         <SplitTime name="Personal Best" />
       </SplitTimes>
-      <BestSegmentTime />
+      <BestSegmentTime>
+        <RealTime>00:00:40.6388044</RealTime>
+        <GameTime>00:00:39.0382247</GameTime>
+      </BestSegmentTime>
       <SegmentHistory>
         <Time id="11" />
         <Time id="28" />
@@ -503,6 +510,10 @@
         <Time id="355" />
         <Time id="359" />
         <Time id="374" />
+        <Time id="401">
+          <RealTime>00:00:40.6388044</RealTime>
+          <GameTime>00:00:39.0382247</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
