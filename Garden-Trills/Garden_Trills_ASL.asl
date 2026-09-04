@@ -56,10 +56,10 @@ isLoading
 {
     return current.CurrentMenu == "Menu.Loading";
 }
-
+    
 split
 {
-    return !old.QuestAnnouncementRunning && current.QuestAnnouncementRunning;
+    return old.QuestCompletedVisibility != 0 && current.QuestCompletedVisibility == 0;
 }
 
 reset
