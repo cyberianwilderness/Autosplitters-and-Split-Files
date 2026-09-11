@@ -2,6 +2,7 @@ state("junkTest-Win64-Shipping")
 {
 
 }
+//backup splitter, does work but the ToatlGamePlayTime is the IGT at the end, not a collective Sum of CurrentIL Time
 
 startup
 {
@@ -151,21 +152,6 @@ update
         if (old.puzzleEnding != current.puzzleEnding)
         {
             vars.Log("puzzleEnding: " + old.puzzleEnding + " -> " + current.puzzleEnding);
-
-            if (!old.puzzleEnding && current.puzzleEnding)
-            {
-                // level just ended: lock in its contribution using the last known live delta
-                if (((IDictionary<string, object>) old).ContainsKey("liveLevelDelta"))
-                {
-                    vars.CompletedLevelsTime += (double) old.liveLevelDelta;
-                    vars.Log("Locked in level time: " + old.liveLevelDelta + " (completed total: " + vars.CompletedLevelsTime + ")");
-                }
-            }
-            else if (old.puzzleEnding && !current.puzzleEnding)
-            {
-                // entering a new level: flag that we need a fresh baseline as soon as data's available
-                vars.NeedsBaselineCapture = true;
-            }
         }
 
         // --- Level stats: GWorld -> AuthorityGameMode -> StatManager -> CurrentlyPlayingLevelSummary ---
@@ -299,6 +285,45 @@ update
             IntPtr saveManager = vars.Helper.Read<IntPtr>(gameState + 0x4B0);
             if (saveManager != IntPtr.Zero)
             {
+                // --- Local level timer: SaveManager -> CurrentLevelSaveData -> TimeSave.LevelTimeSecs ---
+                IntPtr levelSaveData = vars.Helper.Read<IntPtr>(saveManager + 0x160);
+                if (levelSaveData != IntPtr.Zero)
+                {
+                    current.levelTimeSecs = vars.Helper.Read<float>(levelSaveData + 0xD0);
+
+                    if (!((IDictionary<string, object>) old).ContainsKey("levelTimeSecs"))
+                    {
+                        vars.Log("levelTimeSecs (initial): " + current.levelTimeSecs);
+                    }
+                    else
+                    {
+                        if (old.levelTimeSecs != current.levelTimeSecs)
+                        {
+                            vars.Log("levelTimeSecs: " + old.levelTimeSecs + " -> " + current.levelTimeSecs);
+                        }
+
+                        // a drop to near-zero means the level just ended and this reset for the next one -
+                        // bank the just-finished level's time ourselves rather than trust totalGamePlayTime's timing.
+                        // skip banking if the save itself still looks fresh - that means this drop is just stale
+                        // data settling after switching to a new save, not a genuine level completion
+                        if (old.levelTimeSecs > current.levelTimeSecs && current.levelTimeSecs < 5.0)
+                        {
+                            bool saveLooksFresh = ((IDictionary<string, object>) old).ContainsKey("totalGamePlayTime")
+                                && (double) old.totalGamePlayTime < 2.0;
+
+                            if (!saveLooksFresh)
+                            {
+                                vars.CompletedLevelsTime += (double) old.levelTimeSecs;
+                                vars.Log("Banked level time: " + old.levelTimeSecs + " (completed total: " + vars.CompletedLevelsTime + ")");
+                            }
+                            else
+                            {
+                                vars.Log("Skipped banking stale level time (fresh save): " + old.levelTimeSecs);
+                            }
+                        }
+                    }
+                }
+
                 IntPtr globalSave = vars.Helper.Read<IntPtr>(saveManager + 0x100);
                 if (globalSave != IntPtr.Zero)
                 {
@@ -325,10 +350,22 @@ update
 
 start
 {
+    var currentDict = (IDictionary<string, object>) current;
     var oldDict = (IDictionary<string, object>) old;
-    if (!oldDict.ContainsKey("puzzleEnding")) return false;
+    if (!oldDict.ContainsKey("inLevel") || !currentDict.ContainsKey("totalGamePlayTime")) return false;
 
-    return old.puzzleEnding && !current.puzzleEnding;
+    // just walked into a level, on a save that hasn't finished one yet - this can only be a fresh run
+    bool justEnteredLevel = !old.inLevel && current.inLevel;
+    bool looksFresh = (double) current.totalGamePlayTime < 2.0;
+
+    bool shouldStart = justEnteredLevel && looksFresh;
+    if (shouldStart)
+    {
+        vars.CompletedLevelsTime = 0.0;
+        vars.Log("Run starting (fresh save detected) - reset CompletedLevelsTime to 0");
+    }
+
+    return shouldStart;
 }
 
 split
@@ -339,11 +376,17 @@ split
     return !old.puzzleEnding && current.puzzleEnding;
 }
 
-isLoading
+gameTime
 {
     var currentDict = (IDictionary<string, object>) current;
-    if (!currentDict.ContainsKey("inLevel"))
-        return true; // no data yet - treat as loading rather than risk a bad read
+    if (!currentDict.ContainsKey("levelTimeSecs"))
+        return null;
 
-    return current.puzzleEnding || !current.inLevel || current.levelCutscenePlaying;
+    return TimeSpan.FromSeconds((double) vars.CompletedLevelsTime + (double) current.levelTimeSecs);
+}
+
+onReset
+{
+    vars.CompletedLevelsTime = 0.0;
+    vars.Log("onReset fired - cleared CompletedLevelsTime");
 }

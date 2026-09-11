@@ -479,7 +479,7 @@ startup
 
         foreach (string key in phase)
         {
-            if (!settings[key])
+            if (!s[key])
                 continue;
 
             if (vars.CompletedDetailed.Contains(key))
@@ -558,6 +558,8 @@ vars.Helper.TryLoad = (Func<dynamic, bool>)(mono =>
     vars.ActivePostPhases = null;
     vars.CompletedDetailed = new HashSet<string>();
     vars.selectedIL = "";  // FIX: initialise here to avoid RuntimeBinderException
+    vars.accumulatedTime = 0.0;
+    vars.chapterTimeBaseline = 0.0;
 }
 
 onStart
@@ -568,6 +570,9 @@ onStart
     vars.ActivePostPhases = null;
     vars.CompletedDetailed.Clear();
     vars.selectedIL = vars.GetSelectedIL();
+
+    vars.accumulatedTime = 0.0;
+    vars.chapterTimeBaseline = (vars.Helper["chapterTime"] != null) ? (double)vars.Helper["chapterTime"].Current : 0.0;
 }
 
 onReset
@@ -578,6 +583,8 @@ onReset
     vars.ActivePostPhases = null;
     vars.CompletedDetailed.Clear();
     vars.selectedIL = "";
+    vars.accumulatedTime = 0.0;
+    vars.chapterTimeBaseline = (vars.Helper["chapterTime"] != null) ? (double)vars.Helper["chapterTime"].Current : 0.0;
 }
 
 start
@@ -597,6 +604,7 @@ start
             if (curNext == (int)vars.Values["il_alf_start"] && oldNext != curNext)
             {
                 print("[NNT] START - " + vars.Names["il_alf"]);
+                vars.accumulatedTime = 0.0;
                 return true;
             }
         }
@@ -606,6 +614,7 @@ start
             if (vars.Values.ContainsKey(startKey) && curNext == (int)vars.Values[startKey] && oldNext != curNext)
             {
                 print("[NNT] START - " + vars.Names[vars.selectedIL]);
+                vars.accumulatedTime = 0.0;
                 return true;
             }
         }
@@ -622,6 +631,8 @@ start
         vars.phaseIndex = 0;
         vars.ActivePostPhases = null;
         vars.CompletedDetailed.Clear();
+        vars.accumulatedTime = 0.0; // force IGT to to 0.0 at the start of the run
+        vars.chapterTimeBaseline = (vars.Helper["chapterTime"] != null) ? (double)vars.Helper["chapterTime"].Current : 0.0;
         return true;
     }
 
@@ -867,38 +878,25 @@ reset
 }
 update
 {
-    if (vars.Helper["chapterTime"] != null)
-        print("[NNT] chapterTime = " + vars.Helper["chapterTime"].Current);
+    if (vars.Helper["chapterTime"] == null) return;
+
+    float chCur = vars.Helper["chapterTime"].Current;
+    float chOld = vars.Helper["chapterTime"].Old;
+
+    if (chCur < chOld - 1f)
+    {
+        vars.accumulatedTime += (double)chOld;
+    }
+
+   // print("[NNT] chapterTime = " + chCur + " | accumulated = " + vars.accumulatedTime);
 }
 gameTime
 {
     if (vars.Helper["chapterTime"] == null) return null;
 
-    float[] bests = new float[]
-    {
-        vars.Helper["bestRF"].Current,
-        vars.Helper["bestStock"].Current,
-        vars.Helper["bestMon"].Current,
-        vars.Helper["bestPara"].Current,
-        vars.Helper["bestParaTemple"].Current,
-        vars.Helper["bestParaNests"].Current,
-        vars.Helper["bestScrab"].Current,
-        vars.Helper["bestScrabTemple"].Current,
-        vars.Helper["bestScrabNests"].Current,
-        vars.Helper["bestFFZ"].Current,
-        vars.Helper["bestZ1"].Current,
-        vars.Helper["bestZ2"].Current,
-        vars.Helper["bestZ3"].Current,
-        vars.Helper["bestZ4"].Current,
-        vars.Helper["bestBoardroom"].Current
-    };
+    double total = vars.accumulatedTime + (double)vars.Helper["chapterTime"].Current - vars.chapterTimeBaseline;
+    if (total < 0) total = 0;
 
-    double sum = 0;
-    foreach (float b in bests)
-        if (b < 3599999f) sum += b;
-
-    sum += (double)vars.Helper["chapterTime"].Current;
-
-    return TimeSpan.FromSeconds(sum);
+    return TimeSpan.FromSeconds(total);
 }
 exit { }

@@ -20,6 +20,10 @@ init
     // cached once we've discovered ComicFrontend's raw FName value - avoids repeated string decoding
     vars.ComicFrontendFName = null;
 
+    // classification caches for detecting "actually in a level" vs hub/menu/cutscene
+    vars.NonPuzzleFNames = new HashSet<long>(); // hub + cutscene sublevel names, once identified
+    vars.PuzzleFNames = new HashSet<long>();    // any other sublevel name, once identified as real puzzle content
+
     var cachedFNames = new Dictionary<long, string>();
     vars.ReadFName = (Func<long, string>)(fname =>
     {
@@ -59,6 +63,7 @@ update
         int levelsCount = vars.Helper.Read<int>(world + 0x140);
 
         bool foundComicFrontend = false;
+        bool foundPuzzleContent = false;
 
         if (levelsData != IntPtr.Zero && levelsCount > 0 && levelsCount < 64) // sanity clamp against a bad read
         {
@@ -78,7 +83,6 @@ update
                     if (outerFName == (long) vars.ComicFrontendFName)
                     {
                         foundComicFrontend = true;
-                        break;
                     }
                 }
                 else
@@ -89,12 +93,33 @@ update
                     {
                         vars.ComicFrontendFName = outerFName;
                         foundComicFrontend = true;
-                        break;
                     }
                 }
+
+                // classify this sublevel: known hub/cutscene name, or real puzzle content?
+                if (!vars.NonPuzzleFNames.Contains(outerFName) && !vars.PuzzleFNames.Contains(outerFName))
+                {
+                    string classifyName = vars.ReadFName(outerFName);
+                    bool isKnownNonPuzzle = classifyName == "StrmMaster_Adventure"
+                        || classifyName == "AlienOverworld_LightingScenario"
+                        || classifyName == "AlienOverworld_DioramaArt"
+                        || classifyName == "AlienOverworld_Main"
+                        || classifyName == "ComicFrontend"
+                        || classifyName == "AlienOverworld_ending_cutscene"
+                        || classifyName == "AlienOverworld_FinalCutsceneEnvironment";
+
+                    if (isKnownNonPuzzle)
+                        vars.NonPuzzleFNames.Add(outerFName);
+                    else
+                        vars.PuzzleFNames.Add(outerFName);
+                }
+
+                if (vars.PuzzleFNames.Contains(outerFName))
+                    foundPuzzleContent = true;
             }
         }
 
+        current.inLevel = foundPuzzleContent;
         current.puzzleEnding = foundComicFrontend;
 
         if (!((IDictionary<string, object>) old).ContainsKey("puzzleEnding"))
@@ -104,72 +129,33 @@ update
         }
 
         if (old.puzzleEnding != current.puzzleEnding)
+        {
             vars.Log("puzzleEnding: " + old.puzzleEnding + " -> " + current.puzzleEnding);
-
-        // --- Level stats: GWorld -> AuthorityGameMode -> StatManager -> CurrentlyPlayingLevelSummary ---
-        IntPtr gameMode = vars.Helper.Read<IntPtr>(world + 0x118); // UWorld::AuthorityGameMode
-        IntPtr gameState = vars.Helper.Read<IntPtr>(world + 0x120); // UWorld::GameState
-
-        current.gameModeDebug = gameMode.ToString("X");
-        current.gameStateDebug = gameState.ToString("X");
-
-        string gameModeClassName = null;
-        if (gameMode != IntPtr.Zero)
-        {
-            IntPtr gameModeClass = vars.Helper.Read<IntPtr>(gameMode + 0x10); // UOBJECT_CLASS
-            if (gameModeClass != IntPtr.Zero)
-            {
-                long gameModeClassFName = vars.Helper.Read<long>(gameModeClass + 0x18);
-                gameModeClassName = vars.ReadFName(gameModeClassFName);
-            }
-        }
-        current.gameModeClassName = gameModeClassName;
-
-        if (!((IDictionary<string, object>) old).ContainsKey("gameModeDebug"))
-        {
-            vars.Log("DEBUG gameMode: 0x" + current.gameModeDebug + " (class: " + current.gameModeClassName + ") | gameState: 0x" + current.gameStateDebug);
-        }
-        else if (old.gameModeDebug != current.gameModeDebug || old.gameStateDebug != current.gameStateDebug)
-        {
-            vars.Log("DEBUG gameMode: 0x" + current.gameModeDebug + " (class: " + current.gameModeClassName + ") | gameState: 0x" + current.gameStateDebug);
-        }
-
-        if (gameMode != IntPtr.Zero)
-        {
-            IntPtr statManager = vars.Helper.Read<IntPtr>(gameMode + 0x2E8);
-            if (statManager != IntPtr.Zero)
-            {
-                IntPtr levelSummary = vars.Helper.Read<IntPtr>(statManager + 0x248);
-                if (levelSummary != IntPtr.Zero)
-                {
-                    current.playState = vars.Helper.Read<byte>(levelSummary + 0x28);
-                    current.timesDied = vars.Helper.Read<int>(levelSummary + 0x2C);
-                    current.adventureLevelPlayTime = vars.Helper.Read<float>(levelSummary + 0x30);
-                    current.timeTrialBestTime = vars.Helper.Read<float>(levelSummary + 0x38);
-                    current.cogsCollected = vars.Helper.Read<int>(levelSummary + 0x3C);
-
-                    if (!((IDictionary<string, object>) old).ContainsKey("timesDied"))
-                    {
-                        vars.Log("stats (initial): playState=" + current.playState + " timesDied=" + current.timesDied + " advTime=" + current.adventureLevelPlayTime + " ttBest=" + current.timeTrialBestTime + " cogs=" + current.cogsCollected);
-                    }
-                    else
-                    {
-                        if (old.playState != current.playState) vars.Log("playState: " + old.playState + " -> " + current.playState);
-                        if (old.timesDied != current.timesDied) vars.Log("timesDied: " + old.timesDied + " -> " + current.timesDied);
-                        if (old.adventureLevelPlayTime != current.adventureLevelPlayTime) vars.Log("adventureLevelPlayTime: " + old.adventureLevelPlayTime + " -> " + current.adventureLevelPlayTime);
-                        if (old.timeTrialBestTime != current.timeTrialBestTime) vars.Log("timeTrialBestTime: " + old.timeTrialBestTime + " -> " + current.timeTrialBestTime);
-                        if (old.cogsCollected != current.cogsCollected) vars.Log("cogsCollected: " + old.cogsCollected + " -> " + current.cogsCollected);
-                    }
-                }
-            }
         }
 
         // --- Save-file total playtime: GWorld -> GameState -> SaveManager -> CurrentGlobalSaveData ---
+        IntPtr gameState = vars.Helper.Read<IntPtr>(world + 0x120); // UWorld::GameState
         if (gameState != IntPtr.Zero)
         {
             IntPtr saveManager = vars.Helper.Read<IntPtr>(gameState + 0x4B0);
             if (saveManager != IntPtr.Zero)
             {
+                // Current level's live timer (SaveManager -> CurrentLevelSaveData -> TimeSave.LevelTimeSecs).
+                // Exposed as an ASL var (current.levelTimeSecs) for binding to a LiveSplit Text component -
+                // not used internally, gameTime runs off totalGamePlayTime instead. Resets to 0 the instant
+                // you enter a level, counts up live while playing, holds its final value through the recap.
+                IntPtr levelSaveData = vars.Helper.Read<IntPtr>(saveManager + 0x160);
+                if (levelSaveData != IntPtr.Zero)
+                {
+                    current.levelTimeSecs = vars.Helper.Read<float>(levelSaveData + 0xD0);
+
+                    // Uncomment for debugging:
+                    // if (!((IDictionary<string, object>) old).ContainsKey("levelTimeSecs"))
+                    //     vars.Log("levelTimeSecs (initial): " + current.levelTimeSecs);
+                    // else if (old.levelTimeSecs != current.levelTimeSecs)
+                    //     vars.Log("levelTimeSecs: " + old.levelTimeSecs + " -> " + current.levelTimeSecs);
+                }
+
                 IntPtr globalSave = vars.Helper.Read<IntPtr>(saveManager + 0x100);
                 if (globalSave != IntPtr.Zero)
                 {
@@ -193,20 +179,18 @@ update
         return;
     }
 }
-gameTime
-{
-    var currentDict = (IDictionary<string, object>) current;
-    if (!currentDict.ContainsKey("totalGamePlayTime"))
-        return null;
 
-    return TimeSpan.FromSeconds((double) current.totalGamePlayTime);
-}
 start
 {
+    var currentDict = (IDictionary<string, object>) current;
     var oldDict = (IDictionary<string, object>) old;
-    if (!oldDict.ContainsKey("puzzleEnding")) return false;
+    if (!oldDict.ContainsKey("inLevel") || !currentDict.ContainsKey("totalGamePlayTime")) return false;
 
-    return old.puzzleEnding && !current.puzzleEnding;
+    // just walked into a level, on a save that hasn't finished one yet - this can only be a fresh run
+    bool justEnteredLevel = !old.inLevel && current.inLevel;
+    bool looksFresh = (double) current.totalGamePlayTime < 2.0;
+
+    return justEnteredLevel && looksFresh;
 }
 
 split
@@ -215,4 +199,13 @@ split
     if (!oldDict.ContainsKey("puzzleEnding")) return false;
 
     return !old.puzzleEnding && current.puzzleEnding;
+}
+
+gameTime
+{
+    var currentDict = (IDictionary<string, object>) current;
+    if (!currentDict.ContainsKey("totalGamePlayTime"))
+        return null;
+
+    return TimeSpan.FromSeconds((double) current.totalGamePlayTime);
 }
