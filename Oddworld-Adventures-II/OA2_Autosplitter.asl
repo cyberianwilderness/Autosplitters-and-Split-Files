@@ -7,7 +7,7 @@ ________________________________________________________________________________
 | Supported Emulators:                                                                                   |
 |   - Gambatte                                                                                           |
 |                                                                                                        |
-| Made by NanobotZ & l1ndblum                                                                                       |
+| Made by NanobotZ & l1ndblum                                                                            |
 |   Each split occurs when the password screen is on screen (including the ending).                      |
 |                                                                                                        |
 |    Massive thank you to the Code Notes on RetroAchievements                                            |
