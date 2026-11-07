@@ -1,0 +1,1 @@
+C:\Scripts\Autosplitters-and-Split-Files\FANTASIAN-Neo-Dimension-[WIP]\FANTASIAN-diagnostic\target\wasm32-unknown-unknown\release\fantasian_diagnostic.wasm: C:\Scripts\Autosplitters-and-Split-Files\FANTASIAN-Neo-Dimension-[WIP]\FANTASIAN-diagnostic\src\lib.rs
